@@ -42,11 +42,13 @@ for crimeNode in crimeTree.findall('class'):
 
 			# create a date from the File field
 			if crimeElement.attrib['name'] == 'File':
-				print 'crimeDate', ':', crimeElement.text
+				unformattedDate = crimeElement.text
+				print 'crimeDate', ':', unformattedDate.replace('.txt','')
 				continue
 			
 			
-			print crimeElement.attrib['name'], ':' , crimeElement.text
+			print crimeElement.attrib['name'].lower(), ':' , crimeElement.text
 			# print crimeElement.tag
+print '}'
 print ']'
 
