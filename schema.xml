@@ -519,7 +519,7 @@
     -->
    <field name="coordinates_latlong" type="location" indexed="true" stored="true"/>
    <!-- Type used to index the lat and lon components for the "location" FieldType -->
-   <dynamicField name="*_coordinate"  type="tdouble" indexed="true"  stored="false"/>
+   <dynamicField name="*_coordinate"  type="tdouble" indexed="true"  stored="true"/>
 
    <field name="timestamp" type="tdate" indexed="true" stored="true" default="NOW" multiValued="false"/>
 
