@@ -45,7 +45,7 @@
     that avoids logging every request
 -->
 
-<schema name="example" version="1.4">
+<schema name="CrimeSchema" version="1.4">
   <!-- attribute "name" is the name of this schema and is only used for display purposes.
        Applications should change this to reflect the nature of the search collection.
        version="1.4" is Solr's version number for the schema syntax and semantics.  It should
@@ -496,22 +496,22 @@
        when adding a document.
    -->
 
-   <field name="id" 		type="string" indexed="true" stored="true" required="true" /> 
-   <field name="crimeDate" 	type="tdate" indexed="true" stored="true" required="true" />
-   <field name="catagory" 	type="lowercase" indexed="true" stored="true" required="true" />
-   <field name="catagorie" 	type="lowercase" indexed="true" stored="true" required="true" />
-   <field name="crimegroup" 	type="lowercase" indexed="false" stored="true" required="false" />
-   <field name="bussiness" 	type="lowercase" indexed="true" stored="true" required="true" />
-   <field name="county" 	type="lowercase" indexed="true" stored="true" required="true" />
-   <field name="description" 	type="lowercase" indexed="true" stored="true" required="true" />
-   <field name="location" 	type="lowercase" indexed="false" stored="true" required="false" />
-   <field name="city" 	type="lowercase" indexed="true" stored="true" required="true" />
-   <field name="state" 	type="lowercase" indexed="true" stored="true" required="true" />
-   <field name="zipcode" 	type="lowercase" indexed="true" stored="true" required="true" />
-   <field name="service" 	type="lowercase" indexed="false" stored="true" required="false" />
-   <field name="accuracy" 	type="lowercase" indexed="false" stored="true" required="false" />
-   <field name="latx" 	type="lowercase" indexed="true" stored="true" required="false" />
-   <field name="lony" 	type="lowercase" indexed="true" stored="true" required="false" />
+   <field name="id" 		type="string" 		indexed="true" stored="true" required="true" /> 
+   <field name="crimeDate" 	type="tdate" 		indexed="true" stored="true" required="true" />
+   <field name="catagory" 	type="text_en_splitting" 	indexed="true" stored="true" required="true" />
+   <field name="catagorie" 	type="lowercase" 	indexed="true" stored="true" required="true" />
+   <field name="crimegroup" 	type="lowercase" 	indexed="false" stored="true" required="false" />
+   <field name="bussiness" 	type="lowercase" 	indexed="true" stored="true" required="true" />
+   <field name="county" 	type="lowercase" 	indexed="true" stored="true" required="true" />
+   <field name="description" type="text_en_splitting" 	indexed="true" stored="true" required="true" />
+   <field name="location" 	type="lowercase" 	indexed="false" stored="true" required="false" />
+   <field name="city" 		type="lowercase" 	indexed="true" stored="true" required="true" />
+   <field name="state" 		type="lowercase" 	indexed="true" stored="true" required="true" />
+   <field name="zipcode" 	type="lowercase" 	indexed="true" stored="true" required="true" />
+   <field name="service" 	type="lowercase" 	indexed="false" stored="true" required="false" />
+   <field name="accuracy" 	type="lowercase" 	indexed="false" stored="true" required="false" />
+   <field name="latx" 		type="lowercase" 	indexed="true" stored="true" required="false" />
+   <field name="lony" 		type="lowercase" 	indexed="true" stored="true" required="false" />
 
    <field name="timestamp" type="tdate" indexed="true" stored="true" default="NOW" multiValued="false"/>
 
