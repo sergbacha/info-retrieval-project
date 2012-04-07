@@ -462,6 +462,9 @@
     <fieldType name="point" class="solr.PointType" dimension="2" subFieldSuffix="_d"/>
 
     <!-- A specialized field for geospatial search. If indexed, this fieldType must not be multivalued. -->
+    <!-- 
+	subFieldSuffix would sepearte the field into two subfields. basicallt the name_of_our_field_0_coordinates
+	<fieldType name="location" class="solr.LatLonType" subFieldSuffix="_coordinate"/> -->
     <fieldType name="location" class="solr.LatLonType" subFieldSuffix="_coordinate"/>
 
    <!--
@@ -510,13 +513,13 @@
    <field name="zipcode" 	type="lowercase" 	indexed="true" stored="true" required="true" />
    <field name="service" 	type="lowercase" 	indexed="false" stored="true" required="false" />
    <field name="accuracy" 	type="lowercase" 	indexed="false" stored="true" required="false" />
-   <field name="latx" 		type="lowercase" 	indexed="false" stored="true" required="false" />
-   <field name="lony" 		type="lowercase" 	indexed="false" stored="true" required="false" />
 
    <!--
    The geo spatial field of the crime. The lattitude and longitude of where the crime occured
     -->
-   <field name="coordinates" type="location" indexed="true" stored="true"/>
+   <field name="coordinates_latlong" type="location" indexed="true" stored="true"/>
+   <!-- Type used to index the lat and lon components for the "location" FieldType -->
+   <dynamicField name="*_coordinate"  type="tdouble" indexed="true"  stored="false"/>
 
    <field name="timestamp" type="tdate" indexed="true" stored="true" default="NOW" multiValued="false"/>
 

@@ -14,7 +14,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -31,7 +31,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8981759,-77.273669" 
+"coordinates_latlong" : "38.8981759,-77.273669" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -48,7 +48,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -65,7 +65,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8974473,-77.2509046" 
+"coordinates_latlong" : "38.8974473,-77.2509046" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -82,7 +82,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.895241,-77.272505" 
+"coordinates_latlong" : "38.895241,-77.272505" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -99,7 +99,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -116,7 +116,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8939205,-77.2747375" 
+"coordinates_latlong" : "38.8939205,-77.2747375" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -133,7 +133,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9037814,-77.2769745" 
+"coordinates_latlong" : "38.9037814,-77.2769745" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -150,7 +150,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.891699,-77.273521" 
+"coordinates_latlong" : "38.891699,-77.273521" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -167,7 +167,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.883258,-77.265088" 
+"coordinates_latlong" : "38.883258,-77.265088" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -184,7 +184,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8895814,-77.2523258" 
+"coordinates_latlong" : "38.8895814,-77.2523258" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -201,7 +201,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -218,7 +218,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8935188,-77.2460182" 
+"coordinates_latlong" : "38.8935188,-77.2460182" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -235,7 +235,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8828316,-77.2639992" 
+"coordinates_latlong" : "38.8828316,-77.2639992" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -252,7 +252,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.892157,-77.266025" 
+"coordinates_latlong" : "38.892157,-77.266025" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -269,7 +269,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8828316,-77.2639992" 
+"coordinates_latlong" : "38.8828316,-77.2639992" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -286,7 +286,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -303,7 +303,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -320,7 +320,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263657,38.900349" 
+"coordinates_latlong" : "-77.263657,38.900349" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -337,7 +337,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -354,7 +354,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910527,-77.2524221" 
+"coordinates_latlong" : "38.910527,-77.2524221" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -371,7 +371,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8944818,-77.27404" 
+"coordinates_latlong" : "38.8944818,-77.27404" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -388,7 +388,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.90828,-77.266288" 
+"coordinates_latlong" : "38.90828,-77.266288" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -405,7 +405,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8949277,-77.2643789" 
+"coordinates_latlong" : "38.8949277,-77.2643789" 
 },
 {
 "crimeDate" : "2009-01-09T23:59:59Z" ,
@@ -422,7 +422,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.899338,-77.267561" 
+"coordinates_latlong" : "38.899338,-77.267561" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -439,7 +439,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.915499,-77.256605" 
+"coordinates_latlong" : "38.915499,-77.256605" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -456,7 +456,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8875529,-77.2425896" 
+"coordinates_latlong" : "38.8875529,-77.2425896" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -473,7 +473,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.88957,-77.252371" 
+"coordinates_latlong" : "38.88957,-77.252371" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -490,7 +490,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -507,7 +507,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.898456,-77.273894" 
+"coordinates_latlong" : "38.898456,-77.273894" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -524,7 +524,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.882599,-77.254594" 
+"coordinates_latlong" : "38.882599,-77.254594" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -541,7 +541,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8972486,-77.2634307" 
+"coordinates_latlong" : "38.8972486,-77.2634307" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -558,7 +558,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8953345,-77.2730363" 
+"coordinates_latlong" : "38.8953345,-77.2730363" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -575,7 +575,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.914441,-77.243347" 
+"coordinates_latlong" : "38.914441,-77.243347" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -592,7 +592,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.898282,-77.269352" 
+"coordinates_latlong" : "38.898282,-77.269352" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -609,7 +609,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.897415,-77.266139" 
+"coordinates_latlong" : "38.897415,-77.266139" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -626,7 +626,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8971457,-77.2595111" 
+"coordinates_latlong" : "38.8971457,-77.2595111" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -643,7 +643,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8966832,-77.271355" 
+"coordinates_latlong" : "38.8966832,-77.271355" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -660,7 +660,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.901628,-77.265675" 
+"coordinates_latlong" : "38.901628,-77.265675" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -677,7 +677,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -694,7 +694,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -711,7 +711,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9131736,-77.2669624" 
+"coordinates_latlong" : "38.9131736,-77.2669624" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -728,7 +728,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8992903,-77.2680733" 
+"coordinates_latlong" : "38.8992903,-77.2680733" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -745,7 +745,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960108,-77.2439787" 
+"coordinates_latlong" : "38.8960108,-77.2439787" 
 },
 {
 "crimeDate" : "2009-01-16T23:59:59Z" ,
@@ -762,7 +762,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8991323,-77.2669994" 
+"coordinates_latlong" : "38.8991323,-77.2669994" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -779,7 +779,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8858,-77.259093" 
+"coordinates_latlong" : "38.8858,-77.259093" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -796,7 +796,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8891003,-77.265881" 
+"coordinates_latlong" : "38.8891003,-77.265881" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -813,7 +813,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.905335,-77.249678" 
+"coordinates_latlong" : "38.905335,-77.249678" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -830,7 +830,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -847,7 +847,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8966832,-77.271355" 
+"coordinates_latlong" : "38.8966832,-77.271355" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -864,7 +864,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.885313,-77.263632" 
+"coordinates_latlong" : "38.885313,-77.263632" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -881,7 +881,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982003,-77.2559281" 
+"coordinates_latlong" : "38.8982003,-77.2559281" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -898,7 +898,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903848,-77.259048" 
+"coordinates_latlong" : "38.903848,-77.259048" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -915,7 +915,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9061295,-77.2582171" 
+"coordinates_latlong" : "38.9061295,-77.2582171" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -932,7 +932,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.899199,-77.253039" 
+"coordinates_latlong" : "38.899199,-77.253039" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -949,7 +949,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.894157,-77.266681" 
+"coordinates_latlong" : "38.894157,-77.266681" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -966,7 +966,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -983,7 +983,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1000,7 +1000,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8974255,-77.2704306" 
+"coordinates_latlong" : "38.8974255,-77.2704306" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1017,7 +1017,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1034,7 +1034,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8895814,-77.2523258" 
+"coordinates_latlong" : "38.8895814,-77.2523258" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1051,7 +1051,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9091327,-77.2554321" 
+"coordinates_latlong" : "38.9091327,-77.2554321" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1068,7 +1068,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8833416,-77.2488403" 
+"coordinates_latlong" : "38.8833416,-77.2488403" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1085,7 +1085,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8872,-77.249119" 
+"coordinates_latlong" : "38.8872,-77.249119" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1102,7 +1102,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.896316,-77.271358" 
+"coordinates_latlong" : "38.896316,-77.271358" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1119,7 +1119,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8966832,-77.271355" 
+"coordinates_latlong" : "38.8966832,-77.271355" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1136,7 +1136,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.899684,-77.268339" 
+"coordinates_latlong" : "38.899684,-77.268339" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1153,7 +1153,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8966832,-77.271355" 
+"coordinates_latlong" : "38.8966832,-77.271355" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1170,7 +1170,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903848,-77.259048" 
+"coordinates_latlong" : "38.903848,-77.259048" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1187,7 +1187,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8966832,-77.271355" 
+"coordinates_latlong" : "38.8966832,-77.271355" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1204,7 +1204,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9006064,-77.2664219" 
+"coordinates_latlong" : "38.9006064,-77.2664219" 
 },
 {
 "crimeDate" : "2009-01-23T23:59:59Z" ,
@@ -1221,7 +1221,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8847845,-77.2441651" 
+"coordinates_latlong" : "38.8847845,-77.2441651" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1238,7 +1238,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.890394,-77.264292" 
+"coordinates_latlong" : "38.890394,-77.264292" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1255,7 +1255,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8959458,-77.2720651" 
+"coordinates_latlong" : "38.8959458,-77.2720651" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1272,7 +1272,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.906292,-77.273281" 
+"coordinates_latlong" : "38.906292,-77.273281" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1289,7 +1289,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.89457,-77.273914" 
+"coordinates_latlong" : "38.89457,-77.273914" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1306,7 +1306,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.910159,-77.25411" 
+"coordinates_latlong" : "38.910159,-77.25411" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1323,7 +1323,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.897936,-77.264313" 
+"coordinates_latlong" : "38.897936,-77.264313" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1340,7 +1340,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.910847,-77.25011" 
+"coordinates_latlong" : "38.910847,-77.25011" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1357,7 +1357,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9089137,-77.2647624" 
+"coordinates_latlong" : "38.9089137,-77.2647624" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1374,7 +1374,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1391,7 +1391,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9035396,-77.2709908" 
+"coordinates_latlong" : "38.9035396,-77.2709908" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1408,7 +1408,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8953345,-77.2730363" 
+"coordinates_latlong" : "38.8953345,-77.2730363" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1425,7 +1425,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8941105,-77.2746908" 
+"coordinates_latlong" : "38.8941105,-77.2746908" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1442,7 +1442,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.889631,-77.270143" 
+"coordinates_latlong" : "38.889631,-77.270143" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1459,7 +1459,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.906292,-77.273281" 
+"coordinates_latlong" : "38.906292,-77.273281" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1476,7 +1476,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.895279,-77.256999" 
+"coordinates_latlong" : "38.895279,-77.256999" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1493,7 +1493,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.895279,-77.256999" 
+"coordinates_latlong" : "38.895279,-77.256999" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1510,7 +1510,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8949373,-77.2622471" 
+"coordinates_latlong" : "38.8949373,-77.2622471" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1527,7 +1527,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.900445,-77.269091" 
+"coordinates_latlong" : "38.900445,-77.269091" 
 },
 {
 "crimeDate" : "2009-01-30T23:59:59Z" ,
@@ -1544,7 +1544,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.899402,-77.2679314" 
+"coordinates_latlong" : "38.899402,-77.2679314" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1561,7 +1561,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.904293,-77.2673595" 
+"coordinates_latlong" : "38.904293,-77.2673595" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1578,7 +1578,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9002901,-77.278027" 
+"coordinates_latlong" : "38.9002901,-77.278027" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1595,7 +1595,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9004621,-77.2737522" 
+"coordinates_latlong" : "38.9004621,-77.2737522" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1612,7 +1612,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263657,38.900349" 
+"coordinates_latlong" : "-77.263657,38.900349" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1629,7 +1629,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.900445,-77.269091" 
+"coordinates_latlong" : "38.900445,-77.269091" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1646,7 +1646,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8943289,-77.2632742" 
+"coordinates_latlong" : "38.8943289,-77.2632742" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1663,7 +1663,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.882221,-77.25845" 
+"coordinates_latlong" : "38.882221,-77.25845" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1680,7 +1680,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1697,7 +1697,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.90263,-77.259547" 
+"coordinates_latlong" : "38.90263,-77.259547" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1714,7 +1714,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8992225,-77.248689" 
+"coordinates_latlong" : "38.8992225,-77.248689" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1731,7 +1731,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8955221,-77.265571" 
+"coordinates_latlong" : "38.8955221,-77.265571" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1748,7 +1748,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8966832,-77.271355" 
+"coordinates_latlong" : "38.8966832,-77.271355" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1765,7 +1765,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8972486,-77.2634307" 
+"coordinates_latlong" : "38.8972486,-77.2634307" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1782,7 +1782,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1799,7 +1799,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.8946135,-77.273956" 
+"coordinates_latlong" : "38.8946135,-77.273956" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1816,7 +1816,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8949496,-77.2759849" 
+"coordinates_latlong" : "38.8949496,-77.2759849" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1833,7 +1833,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1850,7 +1850,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.899233,-77.265963" 
+"coordinates_latlong" : "38.899233,-77.265963" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1867,7 +1867,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9069125,-77.2634937" 
+"coordinates_latlong" : "38.9069125,-77.2634937" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1884,7 +1884,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.915499,-77.256605" 
+"coordinates_latlong" : "38.915499,-77.256605" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1901,7 +1901,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.890015,-77.27107" 
+"coordinates_latlong" : "38.890015,-77.27107" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1918,7 +1918,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8949496,-77.2759849" 
+"coordinates_latlong" : "38.8949496,-77.2759849" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1935,7 +1935,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.893526,-77.27177" 
+"coordinates_latlong" : "38.893526,-77.27177" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1952,7 +1952,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.885507,-77.268068" 
+"coordinates_latlong" : "38.885507,-77.268068" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1969,7 +1969,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.893526,-77.27177" 
+"coordinates_latlong" : "38.893526,-77.27177" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -1986,7 +1986,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8895814,-77.2523258" 
+"coordinates_latlong" : "38.8895814,-77.2523258" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -2003,7 +2003,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8944818,-77.27404" 
+"coordinates_latlong" : "38.8944818,-77.27404" 
 },
 {
 "crimeDate" : "2009-02-06T23:59:59Z" ,
@@ -2020,7 +2020,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.899828,-77.24797" 
+"coordinates_latlong" : "38.899828,-77.24797" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2037,7 +2037,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.883467,-77.251162" 
+"coordinates_latlong" : "38.883467,-77.251162" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2054,7 +2054,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8875529,-77.2425896" 
+"coordinates_latlong" : "38.8875529,-77.2425896" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2071,7 +2071,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8875529,-77.2425896" 
+"coordinates_latlong" : "38.8875529,-77.2425896" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2088,7 +2088,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.899217,-77.256628" 
+"coordinates_latlong" : "38.899217,-77.256628" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2105,7 +2105,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.894903,-77.270885" 
+"coordinates_latlong" : "38.894903,-77.270885" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2122,7 +2122,7 @@
 "zipcode" : "22180-4725" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263327,38.907236" 
+"coordinates_latlong" : "-77.263327,38.907236" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2139,7 +2139,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.907462,-77.2507608" 
+"coordinates_latlong" : "38.907462,-77.2507608" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2156,7 +2156,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.906779,-77.272067" 
+"coordinates_latlong" : "38.906779,-77.272067" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2173,7 +2173,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9035396,-77.2709908" 
+"coordinates_latlong" : "38.9035396,-77.2709908" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2190,7 +2190,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.910173,-77.262673" 
+"coordinates_latlong" : "38.910173,-77.262673" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2207,7 +2207,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8833416,-77.2488403" 
+"coordinates_latlong" : "38.8833416,-77.2488403" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2224,7 +2224,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8968809,-77.2451134" 
+"coordinates_latlong" : "38.8968809,-77.2451134" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2241,7 +2241,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8924591,-77.2659633" 
+"coordinates_latlong" : "38.8924591,-77.2659633" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2258,7 +2258,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848573,-77.2718417" 
+"coordinates_latlong" : "38.8848573,-77.2718417" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2275,7 +2275,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8977045,-77.258033" 
+"coordinates_latlong" : "38.8977045,-77.258033" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2292,7 +2292,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8941105,-77.2746908" 
+"coordinates_latlong" : "38.8941105,-77.2746908" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2309,7 +2309,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8986004,-77.2652155" 
+"coordinates_latlong" : "38.8986004,-77.2652155" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2326,7 +2326,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8828236,-77.2661093" 
+"coordinates_latlong" : "38.8828236,-77.2661093" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2343,7 +2343,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.910159,-77.25411" 
+"coordinates_latlong" : "38.910159,-77.25411" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2360,7 +2360,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.910639,-77.250035" 
+"coordinates_latlong" : "38.910639,-77.250035" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2377,7 +2377,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.896036,-77.272174" 
+"coordinates_latlong" : "38.896036,-77.272174" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2394,7 +2394,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.902774,-77.262299" 
+"coordinates_latlong" : "38.902774,-77.262299" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2411,7 +2411,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.894341,-77.263273" 
+"coordinates_latlong" : "38.894341,-77.263273" 
 },
 {
 "crimeDate" : "2009-02-13T23:59:59Z" ,
@@ -2428,7 +2428,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2445,7 +2445,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2462,7 +2462,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2479,7 +2479,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9037021,-77.2680271" 
+"coordinates_latlong" : "38.9037021,-77.2680271" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2496,7 +2496,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.891699,-77.273521" 
+"coordinates_latlong" : "38.891699,-77.273521" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2513,7 +2513,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2530,7 +2530,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.888815,-77.243828" 
+"coordinates_latlong" : "38.888815,-77.243828" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2547,7 +2547,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8992225,-77.248689" 
+"coordinates_latlong" : "38.8992225,-77.248689" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2564,7 +2564,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.88913,-77.2687092" 
+"coordinates_latlong" : "38.88913,-77.2687092" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2581,7 +2581,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2598,7 +2598,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.8946135,-77.273956" 
+"coordinates_latlong" : "38.8946135,-77.273956" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2615,7 +2615,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.907342,-77.257977" 
+"coordinates_latlong" : "38.907342,-77.257977" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2632,7 +2632,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.9130035,-77.2686625" 
+"coordinates_latlong" : "38.9130035,-77.2686625" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2649,7 +2649,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.891699,-77.273521" 
+"coordinates_latlong" : "38.891699,-77.273521" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2666,7 +2666,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.900753,-77.260477" 
+"coordinates_latlong" : "38.900753,-77.260477" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2683,7 +2683,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2700,7 +2700,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8877088,-77.2587385" 
+"coordinates_latlong" : "38.8877088,-77.2587385" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2717,7 +2717,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2734,7 +2734,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2751,7 +2751,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9042463,-77.2465313" 
+"coordinates_latlong" : "38.9042463,-77.2465313" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2768,7 +2768,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.887515,-77.261734" 
+"coordinates_latlong" : "38.887515,-77.261734" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2785,7 +2785,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8951586,-77.2671391" 
+"coordinates_latlong" : "38.8951586,-77.2671391" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2802,7 +2802,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.896323,-77.251136" 
+"coordinates_latlong" : "38.896323,-77.251136" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2819,7 +2819,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.909903,-77.273681" 
+"coordinates_latlong" : "38.909903,-77.273681" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2836,7 +2836,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2853,7 +2853,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9023692,-77.273891" 
+"coordinates_latlong" : "38.9023692,-77.273891" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2870,7 +2870,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-07-03T23:59:59Z" ,
@@ -2887,7 +2887,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -2904,7 +2904,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.884629,-77.236428" 
+"coordinates_latlong" : "38.884629,-77.236428" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -2921,7 +2921,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997658,-77.2716858" 
+"coordinates_latlong" : "38.8997658,-77.2716858" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -2938,7 +2938,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.915499,-77.256605" 
+"coordinates_latlong" : "38.915499,-77.256605" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -2955,7 +2955,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -2972,7 +2972,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.884907,-77.252373" 
+"coordinates_latlong" : "38.884907,-77.252373" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -2989,7 +2989,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.8946135,-77.273956" 
+"coordinates_latlong" : "38.8946135,-77.273956" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3006,7 +3006,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8877088,-77.2587385" 
+"coordinates_latlong" : "38.8877088,-77.2587385" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3023,7 +3023,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9042463,-77.2465313" 
+"coordinates_latlong" : "38.9042463,-77.2465313" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3040,7 +3040,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910527,-77.2524221" 
+"coordinates_latlong" : "38.910527,-77.2524221" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3057,7 +3057,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3074,7 +3074,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960477,-77.2721874" 
+"coordinates_latlong" : "38.8960477,-77.2721874" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3091,7 +3091,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9083385,-77.2518973" 
+"coordinates_latlong" : "38.9083385,-77.2518973" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3108,7 +3108,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8986004,-77.2652155" 
+"coordinates_latlong" : "38.8986004,-77.2652155" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3125,7 +3125,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3142,7 +3142,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263657,38.900349" 
+"coordinates_latlong" : "-77.263657,38.900349" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3159,7 +3159,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.913123,-77.246143" 
+"coordinates_latlong" : "38.913123,-77.246143" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3176,7 +3176,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910527,-77.2524221" 
+"coordinates_latlong" : "38.910527,-77.2524221" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3193,7 +3193,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8904013,-77.2611815" 
+"coordinates_latlong" : "38.8904013,-77.2611815" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3210,7 +3210,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3227,7 +3227,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9004409,-77.273797" 
+"coordinates_latlong" : "38.9004409,-77.273797" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3244,7 +3244,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.891699,-77.273521" 
+"coordinates_latlong" : "38.891699,-77.273521" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3261,7 +3261,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8974473,-77.2509046" 
+"coordinates_latlong" : "38.8974473,-77.2509046" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3278,7 +3278,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.897415,-77.266139" 
+"coordinates_latlong" : "38.897415,-77.266139" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3295,7 +3295,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.884629,-77.236428" 
+"coordinates_latlong" : "38.884629,-77.236428" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3312,7 +3312,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848981,-77.2523516" 
+"coordinates_latlong" : "38.8848981,-77.2523516" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3329,7 +3329,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9061358,-77.2711491" 
+"coordinates_latlong" : "38.9061358,-77.2711491" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3346,7 +3346,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3363,7 +3363,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.908949,-77.2506" 
+"coordinates_latlong" : "38.908949,-77.2506" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3380,7 +3380,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3397,7 +3397,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8907402,-77.2685179" 
+"coordinates_latlong" : "38.8907402,-77.2685179" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3414,7 +3414,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8976682,-77.2685456" 
+"coordinates_latlong" : "38.8976682,-77.2685456" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3431,7 +3431,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.897415,-77.266139" 
+"coordinates_latlong" : "38.897415,-77.266139" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3448,7 +3448,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.891699,-77.273521" 
+"coordinates_latlong" : "38.891699,-77.273521" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3465,7 +3465,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3482,7 +3482,7 @@
 "zipcode" : "22031" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.873887,-77.263138" 
+"coordinates_latlong" : "38.873887,-77.263138" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3499,7 +3499,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3516,7 +3516,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3533,7 +3533,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.919079,-77.257202" 
+"coordinates_latlong" : "38.919079,-77.257202" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3550,7 +3550,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8944818,-77.27404" 
+"coordinates_latlong" : "38.8944818,-77.27404" 
 },
 {
 "crimeDate" : "2008-07-11T23:59:59Z" ,
@@ -3567,7 +3567,7 @@
 "zipcode" : "22044" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.872191,-77.147349" 
+"coordinates_latlong" : "38.872191,-77.147349" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3584,7 +3584,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.91205,-77.26133" 
+"coordinates_latlong" : "38.91205,-77.26133" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3601,7 +3601,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.889151,-77.268719" 
+"coordinates_latlong" : "38.889151,-77.268719" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3618,7 +3618,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.902554,-77.252906" 
+"coordinates_latlong" : "38.902554,-77.252906" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3635,7 +3635,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903866,-77.2534" 
+"coordinates_latlong" : "38.903866,-77.2534" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3652,7 +3652,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9054935,-77.2506519" 
+"coordinates_latlong" : "38.9054935,-77.2506519" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3669,7 +3669,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.891295,-77.2679769" 
+"coordinates_latlong" : "38.891295,-77.2679769" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3686,7 +3686,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3703,7 +3703,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3720,7 +3720,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.898347,-77.260639" 
+"coordinates_latlong" : "38.898347,-77.260639" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3737,7 +3737,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.912068,-77.248312" 
+"coordinates_latlong" : "38.912068,-77.248312" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3754,7 +3754,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3771,7 +3771,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9024209,-77.2663416" 
+"coordinates_latlong" : "38.9024209,-77.2663416" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3788,7 +3788,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8971457,-77.2595111" 
+"coordinates_latlong" : "38.8971457,-77.2595111" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3805,7 +3805,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3822,7 +3822,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9078547,-77.2657532" 
+"coordinates_latlong" : "38.9078547,-77.2657532" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3839,7 +3839,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3856,7 +3856,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903232,-77.266103" 
+"coordinates_latlong" : "38.903232,-77.266103" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3873,7 +3873,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.890394,-77.264292" 
+"coordinates_latlong" : "38.890394,-77.264292" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3890,7 +3890,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.886083,-77.269521" 
+"coordinates_latlong" : "38.886083,-77.269521" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3907,7 +3907,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.892371,-77.271073" 
+"coordinates_latlong" : "38.892371,-77.271073" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3924,7 +3924,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8998928,-77.2517185" 
+"coordinates_latlong" : "38.8998928,-77.2517185" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3941,7 +3941,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9036267,-77.2786083" 
+"coordinates_latlong" : "38.9036267,-77.2786083" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3958,7 +3958,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3975,7 +3975,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910072,-77.26757" 
+"coordinates_latlong" : "38.910072,-77.26757" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -3992,7 +3992,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.90471,-77.248941" 
+"coordinates_latlong" : "38.90471,-77.248941" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -4009,7 +4009,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -4026,7 +4026,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -4043,7 +4043,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903468,-77.26255" 
+"coordinates_latlong" : "38.903468,-77.26255" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -4060,7 +4060,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8884612,-77.2650719" 
+"coordinates_latlong" : "38.8884612,-77.2650719" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -4077,7 +4077,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-07-18T23:59:59Z" ,
@@ -4094,7 +4094,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.898236,-77.255535" 
+"coordinates_latlong" : "38.898236,-77.255535" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4111,7 +4111,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903589,-77.251925" 
+"coordinates_latlong" : "38.903589,-77.251925" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4128,7 +4128,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.886653,-77.257578" 
+"coordinates_latlong" : "38.886653,-77.257578" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4145,7 +4145,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8910937,-77.259493" 
+"coordinates_latlong" : "38.8910937,-77.259493" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4162,7 +4162,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4179,7 +4179,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.893402,-77.249161" 
+"coordinates_latlong" : "38.893402,-77.249161" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4196,7 +4196,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.881861,-77.25561" 
+"coordinates_latlong" : "38.881861,-77.25561" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4213,7 +4213,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.919079,-77.257202" 
+"coordinates_latlong" : "38.919079,-77.257202" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4230,7 +4230,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9063773,-77.2493427" 
+"coordinates_latlong" : "38.9063773,-77.2493427" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4247,7 +4247,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.887515,-77.261734" 
+"coordinates_latlong" : "38.887515,-77.261734" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4264,7 +4264,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.905091,-77.267299" 
+"coordinates_latlong" : "38.905091,-77.267299" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4281,7 +4281,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.897415,-77.266139" 
+"coordinates_latlong" : "38.897415,-77.266139" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4298,7 +4298,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4315,7 +4315,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8979202,-77.2643354" 
+"coordinates_latlong" : "38.8979202,-77.2643354" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4332,7 +4332,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4349,7 +4349,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4366,7 +4366,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.895676,-77.2613606" 
+"coordinates_latlong" : "38.895676,-77.2613606" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4383,7 +4383,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9004619,-77.2589998" 
+"coordinates_latlong" : "38.9004619,-77.2589998" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4400,7 +4400,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.885507,-77.268068" 
+"coordinates_latlong" : "38.885507,-77.268068" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4417,7 +4417,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4434,7 +4434,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9042463,-77.2465313" 
+"coordinates_latlong" : "38.9042463,-77.2465313" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4451,7 +4451,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4468,7 +4468,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8833621,-77.2613164" 
+"coordinates_latlong" : "38.8833621,-77.2613164" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4485,7 +4485,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.912935,-77.269739" 
+"coordinates_latlong" : "38.912935,-77.269739" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4502,7 +4502,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8828244,-77.2651531" 
+"coordinates_latlong" : "38.8828244,-77.2651531" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4519,7 +4519,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4536,7 +4536,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4553,7 +4553,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.893193,-77.264462" 
+"coordinates_latlong" : "38.893193,-77.264462" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4570,7 +4570,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4587,7 +4587,7 @@
 "zipcode" : "22031" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.872261,-77.263268" 
+"coordinates_latlong" : "38.872261,-77.263268" 
 },
 {
 "crimeDate" : "2008-07-25T23:59:59Z" ,
@@ -4604,7 +4604,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.883467,-77.251162" 
+"coordinates_latlong" : "38.883467,-77.251162" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4621,7 +4621,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.888269,-77.2574555" 
+"coordinates_latlong" : "38.888269,-77.2574555" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4638,7 +4638,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4655,7 +4655,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4672,7 +4672,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.888269,-77.2574555" 
+"coordinates_latlong" : "38.888269,-77.2574555" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4689,7 +4689,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9004407,-77.2715738" 
+"coordinates_latlong" : "38.9004407,-77.2715738" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4706,7 +4706,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.910847,-77.25011" 
+"coordinates_latlong" : "38.910847,-77.25011" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4723,7 +4723,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4740,7 +4740,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.888257,-77.242196" 
+"coordinates_latlong" : "38.888257,-77.242196" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4757,7 +4757,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.903435,-77.270125" 
+"coordinates_latlong" : "38.903435,-77.270125" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4774,7 +4774,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4791,7 +4791,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9089137,-77.2647624" 
+"coordinates_latlong" : "38.9089137,-77.2647624" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4808,7 +4808,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9116214,-77.2648539" 
+"coordinates_latlong" : "38.9116214,-77.2648539" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4825,7 +4825,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.917246,-77.257038" 
+"coordinates_latlong" : "38.917246,-77.257038" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4842,7 +4842,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.915499,-77.256605" 
+"coordinates_latlong" : "38.915499,-77.256605" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4859,7 +4859,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4876,7 +4876,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4893,7 +4893,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4910,7 +4910,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.893193,-77.264462" 
+"coordinates_latlong" : "38.893193,-77.264462" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4927,7 +4927,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910527,-77.2524221" 
+"coordinates_latlong" : "38.910527,-77.2524221" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4944,7 +4944,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4961,7 +4961,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8933735,-77.2737178" 
+"coordinates_latlong" : "38.8933735,-77.2737178" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4978,7 +4978,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.900111,-77.263317" 
+"coordinates_latlong" : "38.900111,-77.263317" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -4995,7 +4995,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -5012,7 +5012,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.896694,-77.27619" 
+"coordinates_latlong" : "38.896694,-77.27619" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -5029,7 +5029,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.919035,-77.253499" 
+"coordinates_latlong" : "38.919035,-77.253499" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -5046,7 +5046,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -5063,7 +5063,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -5080,7 +5080,7 @@
 "zipcode" : "22182" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.921731,-77.257886" 
+"coordinates_latlong" : "38.921731,-77.257886" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -5097,7 +5097,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -5114,7 +5114,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-01T23:59:59Z" ,
@@ -5131,7 +5131,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5148,7 +5148,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5165,7 +5165,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5182,7 +5182,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5199,7 +5199,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8929493,-77.2565496" 
+"coordinates_latlong" : "38.8929493,-77.2565496" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5216,7 +5216,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5233,7 +5233,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8958263,-77.2528469" 
+"coordinates_latlong" : "38.8958263,-77.2528469" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5250,7 +5250,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9049807,-77.2609677" 
+"coordinates_latlong" : "38.9049807,-77.2609677" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5267,7 +5267,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.914441,-77.243347" 
+"coordinates_latlong" : "38.914441,-77.243347" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5284,7 +5284,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5301,7 +5301,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5318,7 +5318,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9045449,-77.2752564" 
+"coordinates_latlong" : "38.9045449,-77.2752564" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5335,7 +5335,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5352,7 +5352,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.884995,-77.254285" 
+"coordinates_latlong" : "38.884995,-77.254285" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5369,7 +5369,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5386,7 +5386,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5403,7 +5403,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5420,7 +5420,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.897243,-77.258917" 
+"coordinates_latlong" : "38.897243,-77.258917" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5437,7 +5437,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5454,7 +5454,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5471,7 +5471,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5488,7 +5488,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.882492,-77.254215" 
+"coordinates_latlong" : "38.882492,-77.254215" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5505,7 +5505,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.881861,-77.25561" 
+"coordinates_latlong" : "38.881861,-77.25561" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5522,7 +5522,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5539,7 +5539,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903848,-77.259048" 
+"coordinates_latlong" : "38.903848,-77.259048" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5556,7 +5556,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8986004,-77.2652155" 
+"coordinates_latlong" : "38.8986004,-77.2652155" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5573,7 +5573,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.901621,-77.256188" 
+"coordinates_latlong" : "38.901621,-77.256188" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5590,7 +5590,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9004409,-77.273797" 
+"coordinates_latlong" : "38.9004409,-77.273797" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5607,7 +5607,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9002942,-77.2532599" 
+"coordinates_latlong" : "38.9002942,-77.2532599" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5624,7 +5624,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903848,-77.259048" 
+"coordinates_latlong" : "38.903848,-77.259048" 
 },
 {
 "crimeDate" : "2008-08-08T23:59:59Z" ,
@@ -5641,7 +5641,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.912068,-77.248312" 
+"coordinates_latlong" : "38.912068,-77.248312" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5658,7 +5658,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9042463,-77.2465313" 
+"coordinates_latlong" : "38.9042463,-77.2465313" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5675,7 +5675,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9128836,-77.2653049" 
+"coordinates_latlong" : "38.9128836,-77.2653049" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5692,7 +5692,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5709,7 +5709,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9063773,-77.2493427" 
+"coordinates_latlong" : "38.9063773,-77.2493427" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5726,7 +5726,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8828244,-77.2651531" 
+"coordinates_latlong" : "38.8828244,-77.2651531" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5743,7 +5743,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5760,7 +5760,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.888269,-77.2574555" 
+"coordinates_latlong" : "38.888269,-77.2574555" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5777,7 +5777,7 @@
 "zipcode" : "22182-3755" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.239022,38.915446" 
+"coordinates_latlong" : "-77.239022,38.915446" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5794,7 +5794,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5811,7 +5811,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8833229,-77.256785" 
+"coordinates_latlong" : "38.8833229,-77.256785" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5828,7 +5828,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.897936,-77.264313" 
+"coordinates_latlong" : "38.897936,-77.264313" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5845,7 +5845,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.91205,-77.26133" 
+"coordinates_latlong" : "38.91205,-77.26133" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5862,7 +5862,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.897644,-77.25484" 
+"coordinates_latlong" : "38.897644,-77.25484" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5879,7 +5879,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.905772,-77.278859" 
+"coordinates_latlong" : "38.905772,-77.278859" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5896,7 +5896,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5913,7 +5913,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9065066,-77.2587335" 
+"coordinates_latlong" : "38.9065066,-77.2587335" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5930,7 +5930,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903848,-77.259048" 
+"coordinates_latlong" : "38.903848,-77.259048" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5947,7 +5947,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.905151,-77.256935" 
+"coordinates_latlong" : "38.905151,-77.256935" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5964,7 +5964,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5981,7 +5981,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903468,-77.26255" 
+"coordinates_latlong" : "38.903468,-77.26255" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -5998,7 +5998,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -6015,7 +6015,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.908506,-77.263798" 
+"coordinates_latlong" : "38.908506,-77.263798" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -6032,7 +6032,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -6049,7 +6049,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9106417,-77.2500231" 
+"coordinates_latlong" : "38.9106417,-77.2500231" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -6066,7 +6066,7 @@
 "zipcode" : "22031" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.872261,-77.263268" 
+"coordinates_latlong" : "38.872261,-77.263268" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -6083,7 +6083,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9023499,-77.273928" 
+"coordinates_latlong" : "38.9023499,-77.273928" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -6100,7 +6100,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.909074,-77.2608346" 
+"coordinates_latlong" : "38.909074,-77.2608346" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -6117,7 +6117,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -6134,7 +6134,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9054935,-77.2506519" 
+"coordinates_latlong" : "38.9054935,-77.2506519" 
 },
 {
 "crimeDate" : "2008-08-15T23:59:59Z" ,
@@ -6151,7 +6151,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6168,7 +6168,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6185,7 +6185,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.88258,-77.258088" 
+"coordinates_latlong" : "38.88258,-77.258088" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6202,7 +6202,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9012389,-77.2599105" 
+"coordinates_latlong" : "38.9012389,-77.2599105" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6219,7 +6219,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.902531,-77.277346" 
+"coordinates_latlong" : "38.902531,-77.277346" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6236,7 +6236,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8931718,-77.2524847" 
+"coordinates_latlong" : "38.8931718,-77.2524847" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6253,7 +6253,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9089137,-77.2647624" 
+"coordinates_latlong" : "38.9089137,-77.2647624" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6270,7 +6270,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.913123,-77.246143" 
+"coordinates_latlong" : "38.913123,-77.246143" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6287,7 +6287,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6304,7 +6304,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6321,7 +6321,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8972486,-77.2634307" 
+"coordinates_latlong" : "38.8972486,-77.2634307" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6338,7 +6338,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9078547,-77.2657532" 
+"coordinates_latlong" : "38.9078547,-77.2657532" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6355,7 +6355,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.888269,-77.2574555" 
+"coordinates_latlong" : "38.888269,-77.2574555" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6372,7 +6372,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6389,7 +6389,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8860356,-77.2471182" 
+"coordinates_latlong" : "38.8860356,-77.2471182" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6406,7 +6406,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9004409,-77.273797" 
+"coordinates_latlong" : "38.9004409,-77.273797" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6423,7 +6423,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.896951,-77.249189" 
+"coordinates_latlong" : "38.896951,-77.249189" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6440,7 +6440,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8828316,-77.2639992" 
+"coordinates_latlong" : "38.8828316,-77.2639992" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6457,7 +6457,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.887044,-77.254561" 
+"coordinates_latlong" : "38.887044,-77.254561" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6474,7 +6474,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6491,7 +6491,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-08-22T23:59:59Z" ,
@@ -6508,7 +6508,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.897644,-77.25484" 
+"coordinates_latlong" : "38.897644,-77.25484" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6525,7 +6525,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8959515,-77.2668936" 
+"coordinates_latlong" : "38.8959515,-77.2668936" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6542,7 +6542,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8944818,-77.27404" 
+"coordinates_latlong" : "38.8944818,-77.27404" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6559,7 +6559,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9042463,-77.2465313" 
+"coordinates_latlong" : "38.9042463,-77.2465313" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6576,7 +6576,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.898727,-77.246485" 
+"coordinates_latlong" : "38.898727,-77.246485" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6593,7 +6593,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910527,-77.2524221" 
+"coordinates_latlong" : "38.910527,-77.2524221" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6610,7 +6610,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9023499,-77.273928" 
+"coordinates_latlong" : "38.9023499,-77.273928" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6627,7 +6627,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8924818,-77.2600646" 
+"coordinates_latlong" : "38.8924818,-77.2600646" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6644,7 +6644,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.888269,-77.2574555" 
+"coordinates_latlong" : "38.888269,-77.2574555" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6661,7 +6661,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6678,7 +6678,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.901805,-77.277647" 
+"coordinates_latlong" : "38.901805,-77.277647" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6695,7 +6695,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6712,7 +6712,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6729,7 +6729,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.901621,-77.256188" 
+"coordinates_latlong" : "38.901621,-77.256188" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6746,7 +6746,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.893193,-77.264462" 
+"coordinates_latlong" : "38.893193,-77.264462" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6763,7 +6763,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6780,7 +6780,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8929493,-77.2565496" 
+"coordinates_latlong" : "38.8929493,-77.2565496" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6797,7 +6797,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6814,7 +6814,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9024209,-77.2663416" 
+"coordinates_latlong" : "38.9024209,-77.2663416" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6831,7 +6831,7 @@
 "zipcode" : "22180-3638" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.257091,38.916214" 
+"coordinates_latlong" : "-77.257091,38.916214" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6848,7 +6848,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.891699,-77.273521" 
+"coordinates_latlong" : "38.891699,-77.273521" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6865,7 +6865,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6882,7 +6882,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982701,-77.2693367" 
+"coordinates_latlong" : "38.8982701,-77.2693367" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6899,7 +6899,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8878139,-77.251402" 
+"coordinates_latlong" : "38.8878139,-77.251402" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6916,7 +6916,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8944818,-77.27404" 
+"coordinates_latlong" : "38.8944818,-77.27404" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6933,7 +6933,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6950,7 +6950,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-08-29T23:59:59Z" ,
@@ -6967,7 +6967,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.90263,-77.259547" 
+"coordinates_latlong" : "38.90263,-77.259547" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -6984,7 +6984,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7001,7 +7001,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8991,-77.256213" 
+"coordinates_latlong" : "38.8991,-77.256213" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7018,7 +7018,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.905335,-77.249678" 
+"coordinates_latlong" : "38.905335,-77.249678" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7035,7 +7035,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.891888,-77.268868" 
+"coordinates_latlong" : "38.891888,-77.268868" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7052,7 +7052,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7069,7 +7069,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7086,7 +7086,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.893402,-77.249161" 
+"coordinates_latlong" : "38.893402,-77.249161" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7103,7 +7103,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7120,7 +7120,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.898236,-77.255535" 
+"coordinates_latlong" : "38.898236,-77.255535" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7137,7 +7137,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7154,7 +7154,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.899828,-77.24797" 
+"coordinates_latlong" : "38.899828,-77.24797" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7171,7 +7171,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7188,7 +7188,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7205,7 +7205,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9089137,-77.2647624" 
+"coordinates_latlong" : "38.9089137,-77.2647624" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7222,7 +7222,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.914441,-77.243347" 
+"coordinates_latlong" : "38.914441,-77.243347" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7239,7 +7239,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9180303,-77.2530844" 
+"coordinates_latlong" : "38.9180303,-77.2530844" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7256,7 +7256,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9024209,-77.2663416" 
+"coordinates_latlong" : "38.9024209,-77.2663416" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7273,7 +7273,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9023499,-77.273928" 
+"coordinates_latlong" : "38.9023499,-77.273928" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7290,7 +7290,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7307,7 +7307,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7324,7 +7324,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910072,-77.26757" 
+"coordinates_latlong" : "38.910072,-77.26757" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7341,7 +7341,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7358,7 +7358,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7375,7 +7375,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-09-05T23:59:59Z" ,
@@ -7392,7 +7392,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.887039,-77.267768" 
+"coordinates_latlong" : "38.887039,-77.267768" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7409,7 +7409,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9045449,-77.2752564" 
+"coordinates_latlong" : "38.9045449,-77.2752564" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7426,7 +7426,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.897389,-77.250624" 
+"coordinates_latlong" : "38.897389,-77.250624" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7443,7 +7443,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903848,-77.259048" 
+"coordinates_latlong" : "38.903848,-77.259048" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7460,7 +7460,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.904293,-77.2673595" 
+"coordinates_latlong" : "38.904293,-77.2673595" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7477,7 +7477,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7494,7 +7494,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7511,7 +7511,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.90108,-77.283411" 
+"coordinates_latlong" : "38.90108,-77.283411" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7528,7 +7528,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910072,-77.26757" 
+"coordinates_latlong" : "38.910072,-77.26757" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7545,7 +7545,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910072,-77.26757" 
+"coordinates_latlong" : "38.910072,-77.26757" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7562,7 +7562,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.91044,-77.249339" 
+"coordinates_latlong" : "38.91044,-77.249339" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7579,7 +7579,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.907029,-77.247979" 
+"coordinates_latlong" : "38.907029,-77.247979" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7596,7 +7596,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.908967,-77.245872" 
+"coordinates_latlong" : "38.908967,-77.245872" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7613,7 +7613,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.908685,-77.248344" 
+"coordinates_latlong" : "38.908685,-77.248344" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7630,7 +7630,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.907029,-77.247979" 
+"coordinates_latlong" : "38.907029,-77.247979" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7647,7 +7647,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.907029,-77.247979" 
+"coordinates_latlong" : "38.907029,-77.247979" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7664,7 +7664,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.907029,-77.247979" 
+"coordinates_latlong" : "38.907029,-77.247979" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7681,7 +7681,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7698,7 +7698,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.893193,-77.264462" 
+"coordinates_latlong" : "38.893193,-77.264462" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7715,7 +7715,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.896788,-77.266674" 
+"coordinates_latlong" : "38.896788,-77.266674" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7732,7 +7732,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903468,-77.26255" 
+"coordinates_latlong" : "38.903468,-77.26255" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7749,7 +7749,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.884046,-77.270248" 
+"coordinates_latlong" : "38.884046,-77.270248" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7766,7 +7766,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9090922,-77.2584895" 
+"coordinates_latlong" : "38.9090922,-77.2584895" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7783,7 +7783,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.917105,-77.244588" 
+"coordinates_latlong" : "38.917105,-77.244588" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7800,7 +7800,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.899611,-77.282383" 
+"coordinates_latlong" : "38.899611,-77.282383" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7817,7 +7817,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.888402,-77.257069" 
+"coordinates_latlong" : "38.888402,-77.257069" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7834,7 +7834,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.89861,-77.265203" 
+"coordinates_latlong" : "38.89861,-77.265203" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7851,7 +7851,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9024209,-77.2663416" 
+"coordinates_latlong" : "38.9024209,-77.2663416" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7868,7 +7868,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8857395,-77.2634467" 
+"coordinates_latlong" : "38.8857395,-77.2634467" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7885,7 +7885,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9032765,-77.2501868" 
+"coordinates_latlong" : "38.9032765,-77.2501868" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7902,7 +7902,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7919,7 +7919,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9065066,-77.2587335" 
+"coordinates_latlong" : "38.9065066,-77.2587335" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7936,7 +7936,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8878796,-77.2536402" 
+"coordinates_latlong" : "38.8878796,-77.2536402" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7953,7 +7953,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8891003,-77.265881" 
+"coordinates_latlong" : "38.8891003,-77.265881" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7970,7 +7970,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.905887,-77.278469" 
+"coordinates_latlong" : "38.905887,-77.278469" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -7987,7 +7987,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.911599,-77.257582" 
+"coordinates_latlong" : "38.911599,-77.257582" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -8004,7 +8004,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.897389,-77.250624" 
+"coordinates_latlong" : "38.897389,-77.250624" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -8021,7 +8021,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9004619,-77.2589998" 
+"coordinates_latlong" : "38.9004619,-77.2589998" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -8038,7 +8038,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.904203,-77.274202" 
+"coordinates_latlong" : "38.904203,-77.274202" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -8055,7 +8055,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-09-12T23:59:59Z" ,
@@ -8072,7 +8072,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8089,7 +8089,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9009217,-77.2660289" 
+"coordinates_latlong" : "38.9009217,-77.2660289" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8106,7 +8106,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910527,-77.2524221" 
+"coordinates_latlong" : "38.910527,-77.2524221" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8123,7 +8123,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8895814,-77.2523258" 
+"coordinates_latlong" : "38.8895814,-77.2523258" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8140,7 +8140,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8863679,-77.2558688" 
+"coordinates_latlong" : "38.8863679,-77.2558688" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8157,7 +8157,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.905091,-77.267299" 
+"coordinates_latlong" : "38.905091,-77.267299" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8174,7 +8174,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8191,7 +8191,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8208,7 +8208,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.908506,-77.263798" 
+"coordinates_latlong" : "38.908506,-77.263798" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8225,7 +8225,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8242,7 +8242,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.893402,-77.249161" 
+"coordinates_latlong" : "38.893402,-77.249161" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8259,7 +8259,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8949496,-77.2759849" 
+"coordinates_latlong" : "38.8949496,-77.2759849" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8276,7 +8276,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8293,7 +8293,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.884641,-77.270721" 
+"coordinates_latlong" : "38.884641,-77.270721" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8310,7 +8310,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9126552,-77.2470464" 
+"coordinates_latlong" : "38.9126552,-77.2470464" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8327,7 +8327,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8344,7 +8344,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.883467,-77.251162" 
+"coordinates_latlong" : "38.883467,-77.251162" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8361,7 +8361,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8933168,-77.2617314" 
+"coordinates_latlong" : "38.8933168,-77.2617314" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8378,7 +8378,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8395,7 +8395,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9065066,-77.2587335" 
+"coordinates_latlong" : "38.9065066,-77.2587335" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8412,7 +8412,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.899199,-77.253039" 
+"coordinates_latlong" : "38.899199,-77.253039" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8429,7 +8429,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8944818,-77.27404" 
+"coordinates_latlong" : "38.8944818,-77.27404" 
 },
 {
 "crimeDate" : "2008-09-19T23:59:59Z" ,
@@ -8446,7 +8446,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8957421,-77.2749992" 
+"coordinates_latlong" : "38.8957421,-77.2749992" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8463,7 +8463,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8964669,-77.2536582" 
+"coordinates_latlong" : "38.8964669,-77.2536582" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8480,7 +8480,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.905606,-77.252408" 
+"coordinates_latlong" : "38.905606,-77.252408" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8497,7 +8497,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9076059,-77.2744232" 
+"coordinates_latlong" : "38.9076059,-77.2744232" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8514,7 +8514,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8944818,-77.27404" 
+"coordinates_latlong" : "38.8944818,-77.27404" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8531,7 +8531,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8548,7 +8548,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8565,7 +8565,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910688,-77.2587915" 
+"coordinates_latlong" : "38.910688,-77.2587915" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8582,7 +8582,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8599,7 +8599,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8944818,-77.27404" 
+"coordinates_latlong" : "38.8944818,-77.27404" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8616,7 +8616,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.902272,-77.283157" 
+"coordinates_latlong" : "38.902272,-77.283157" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8633,7 +8633,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9126552,-77.2470464" 
+"coordinates_latlong" : "38.9126552,-77.2470464" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8650,7 +8650,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8667,7 +8667,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.883919,-77.268228" 
+"coordinates_latlong" : "38.883919,-77.268228" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8684,7 +8684,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.888269,-77.2574555" 
+"coordinates_latlong" : "38.888269,-77.2574555" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8701,7 +8701,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.909074,-77.2608346" 
+"coordinates_latlong" : "38.909074,-77.2608346" 
 },
 {
 "crimeDate" : "2008-09-26T23:59:59Z" ,
@@ -8718,7 +8718,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9036534,-77.2724092" 
+"coordinates_latlong" : "38.9036534,-77.2724092" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8735,7 +8735,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8752,7 +8752,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903232,-77.266103" 
+"coordinates_latlong" : "38.903232,-77.266103" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8769,7 +8769,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8910937,-77.259493" 
+"coordinates_latlong" : "38.8910937,-77.259493" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8786,7 +8786,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.899551,-77.2577016" 
+"coordinates_latlong" : "38.899551,-77.2577016" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8803,7 +8803,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.904009,-77.281727" 
+"coordinates_latlong" : "38.904009,-77.281727" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8820,7 +8820,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9126552,-77.2470464" 
+"coordinates_latlong" : "38.9126552,-77.2470464" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8837,7 +8837,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9012389,-77.2599105" 
+"coordinates_latlong" : "38.9012389,-77.2599105" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8854,7 +8854,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.898347,-77.260639" 
+"coordinates_latlong" : "38.898347,-77.260639" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8871,7 +8871,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8888,7 +8888,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8905,7 +8905,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9022639,-77.2574704" 
+"coordinates_latlong" : "38.9022639,-77.2574704" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8922,7 +8922,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9001145,-77.26059" 
+"coordinates_latlong" : "38.9001145,-77.26059" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8939,7 +8939,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.91205,-77.26133" 
+"coordinates_latlong" : "38.91205,-77.26133" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8956,7 +8956,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.909074,-77.2608346" 
+"coordinates_latlong" : "38.909074,-77.2608346" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8973,7 +8973,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -8990,7 +8990,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.884401,-77.265922" 
+"coordinates_latlong" : "38.884401,-77.265922" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -9007,7 +9007,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8986004,-77.2652155" 
+"coordinates_latlong" : "38.8986004,-77.2652155" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -9024,7 +9024,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9078547,-77.2657532" 
+"coordinates_latlong" : "38.9078547,-77.2657532" 
 },
 {
 "crimeDate" : "2008-10-03T23:59:59Z" ,
@@ -9041,7 +9041,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9058,7 +9058,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.882259,-77.245535" 
+"coordinates_latlong" : "38.882259,-77.245535" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9075,7 +9075,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8886967,-77.2702921" 
+"coordinates_latlong" : "38.8886967,-77.2702921" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9092,7 +9092,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9126552,-77.2470464" 
+"coordinates_latlong" : "38.9126552,-77.2470464" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9109,7 +9109,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.885046,-77.259978" 
+"coordinates_latlong" : "38.885046,-77.259978" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9126,7 +9126,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9042463,-77.2465313" 
+"coordinates_latlong" : "38.9042463,-77.2465313" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9143,7 +9143,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8858953,-77.267028" 
+"coordinates_latlong" : "38.8858953,-77.267028" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9160,7 +9160,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.880804,-77.257461" 
+"coordinates_latlong" : "38.880804,-77.257461" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9177,7 +9177,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8910937,-77.259493" 
+"coordinates_latlong" : "38.8910937,-77.259493" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9194,7 +9194,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.901874,-77.292324" 
+"coordinates_latlong" : "38.901874,-77.292324" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9211,7 +9211,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9228,7 +9228,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.905091,-77.267299" 
+"coordinates_latlong" : "38.905091,-77.267299" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9245,7 +9245,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9024158,-77.2709067" 
+"coordinates_latlong" : "38.9024158,-77.2709067" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9262,7 +9262,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.897389,-77.250624" 
+"coordinates_latlong" : "38.897389,-77.250624" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9279,7 +9279,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.896516,-77.262441" 
+"coordinates_latlong" : "38.896516,-77.262441" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9296,7 +9296,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9313,7 +9313,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.893402,-77.249161" 
+"coordinates_latlong" : "38.893402,-77.249161" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9330,7 +9330,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9347,7 +9347,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-10-10T23:59:59Z" ,
@@ -9364,7 +9364,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9070955,-77.2748606" 
+"coordinates_latlong" : "38.9070955,-77.2748606" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9381,7 +9381,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8992221,-77.2681599" 
+"coordinates_latlong" : "38.8992221,-77.2681599" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9398,7 +9398,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.883467,-77.251162" 
+"coordinates_latlong" : "38.883467,-77.251162" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9415,7 +9415,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9038378,-77.2459919" 
+"coordinates_latlong" : "38.9038378,-77.2459919" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9432,7 +9432,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9091327,-77.2554321" 
+"coordinates_latlong" : "38.9091327,-77.2554321" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9449,7 +9449,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8847845,-77.2441651" 
+"coordinates_latlong" : "38.8847845,-77.2441651" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9466,7 +9466,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8949373,-77.2622471" 
+"coordinates_latlong" : "38.8949373,-77.2622471" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9483,7 +9483,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8847845,-77.2441651" 
+"coordinates_latlong" : "38.8847845,-77.2441651" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9500,7 +9500,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9517,7 +9517,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9534,7 +9534,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.909527,-77.248071" 
+"coordinates_latlong" : "38.909527,-77.248071" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9551,7 +9551,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.898996,-77.261874" 
+"coordinates_latlong" : "38.898996,-77.261874" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9568,7 +9568,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.901621,-77.256188" 
+"coordinates_latlong" : "38.901621,-77.256188" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9585,7 +9585,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.909527,-77.248071" 
+"coordinates_latlong" : "38.909527,-77.248071" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9602,7 +9602,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8860356,-77.2471182" 
+"coordinates_latlong" : "38.8860356,-77.2471182" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9619,7 +9619,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9636,7 +9636,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9653,7 +9653,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.889631,-77.270143" 
+"coordinates_latlong" : "38.889631,-77.270143" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9670,7 +9670,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9687,7 +9687,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9061358,-77.2711491" 
+"coordinates_latlong" : "38.9061358,-77.2711491" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9704,7 +9704,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8875206,-77.242607" 
+"coordinates_latlong" : "38.8875206,-77.242607" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9721,7 +9721,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982003,-77.2559281" 
+"coordinates_latlong" : "38.8982003,-77.2559281" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9738,7 +9738,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.901621,-77.256188" 
+"coordinates_latlong" : "38.901621,-77.256188" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9755,7 +9755,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903468,-77.26255" 
+"coordinates_latlong" : "38.903468,-77.26255" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9772,7 +9772,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9789,7 +9789,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.902531,-77.277346" 
+"coordinates_latlong" : "38.902531,-77.277346" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9806,7 +9806,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.882749,-77.259263" 
+"coordinates_latlong" : "38.882749,-77.259263" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9823,7 +9823,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8878139,-77.251402" 
+"coordinates_latlong" : "38.8878139,-77.251402" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9840,7 +9840,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.898884,-77.269047" 
+"coordinates_latlong" : "38.898884,-77.269047" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9857,7 +9857,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.904293,-77.2673595" 
+"coordinates_latlong" : "38.904293,-77.2673595" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9874,7 +9874,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-10-17T23:59:59Z" ,
@@ -9891,7 +9891,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8910937,-77.259493" 
+"coordinates_latlong" : "38.8910937,-77.259493" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -9908,7 +9908,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9038378,-77.2459919" 
+"coordinates_latlong" : "38.9038378,-77.2459919" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -9925,7 +9925,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.900427,-77.252745" 
+"coordinates_latlong" : "38.900427,-77.252745" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -9942,7 +9942,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -9959,7 +9959,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.90167,-77.279055" 
+"coordinates_latlong" : "38.90167,-77.279055" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -9976,7 +9976,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -9993,7 +9993,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.887992,-77.247571" 
+"coordinates_latlong" : "38.887992,-77.247571" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -10010,7 +10010,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -10027,7 +10027,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.899828,-77.24797" 
+"coordinates_latlong" : "38.899828,-77.24797" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -10044,7 +10044,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -10061,7 +10061,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.909527,-77.248071" 
+"coordinates_latlong" : "38.909527,-77.248071" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -10078,7 +10078,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9024209,-77.2663416" 
+"coordinates_latlong" : "38.9024209,-77.2663416" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -10095,7 +10095,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.886794,-77.25189" 
+"coordinates_latlong" : "38.886794,-77.25189" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -10112,7 +10112,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -10129,7 +10129,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8966832,-77.271355" 
+"coordinates_latlong" : "38.8966832,-77.271355" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -10146,7 +10146,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9064265,-77.2518946" 
+"coordinates_latlong" : "38.9064265,-77.2518946" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -10163,7 +10163,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8877088,-77.2587385" 
+"coordinates_latlong" : "38.8877088,-77.2587385" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -10180,7 +10180,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.893402,-77.249161" 
+"coordinates_latlong" : "38.893402,-77.249161" 
 },
 {
 "crimeDate" : "2008-10-24T23:59:59Z" ,
@@ -10197,7 +10197,7 @@
 "zipcode" : "22044" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.872191,-77.147349" 
+"coordinates_latlong" : "38.872191,-77.147349" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10214,7 +10214,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8852208,-77.259358" 
+"coordinates_latlong" : "38.8852208,-77.259358" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10231,7 +10231,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10248,7 +10248,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9004619,-77.2589998" 
+"coordinates_latlong" : "38.9004619,-77.2589998" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10265,7 +10265,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10282,7 +10282,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9003732,-77.2682365" 
+"coordinates_latlong" : "38.9003732,-77.2682365" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10299,7 +10299,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8970466,-77.2708974" 
+"coordinates_latlong" : "38.8970466,-77.2708974" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10316,7 +10316,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8875206,-77.242607" 
+"coordinates_latlong" : "38.8875206,-77.242607" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10333,7 +10333,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9128176,-77.2463528" 
+"coordinates_latlong" : "38.9128176,-77.2463528" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10350,7 +10350,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8847845,-77.2441651" 
+"coordinates_latlong" : "38.8847845,-77.2441651" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10367,7 +10367,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8966832,-77.271355" 
+"coordinates_latlong" : "38.8966832,-77.271355" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10384,7 +10384,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10401,7 +10401,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.897243,-77.258917" 
+"coordinates_latlong" : "38.897243,-77.258917" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10418,7 +10418,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.889419,-77.262384" 
+"coordinates_latlong" : "38.889419,-77.262384" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10435,7 +10435,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10452,7 +10452,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.917105,-77.244588" 
+"coordinates_latlong" : "38.917105,-77.244588" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10469,7 +10469,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.908506,-77.263798" 
+"coordinates_latlong" : "38.908506,-77.263798" 
 },
 {
 "crimeDate" : "2008-10-31T23:59:59Z" ,
@@ -10486,7 +10486,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9065066,-77.2587335" 
+"coordinates_latlong" : "38.9065066,-77.2587335" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10503,7 +10503,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910527,-77.2524221" 
+"coordinates_latlong" : "38.910527,-77.2524221" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10520,7 +10520,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.903484,-77.259056" 
+"coordinates_latlong" : "38.903484,-77.259056" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10537,7 +10537,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10554,7 +10554,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10571,7 +10571,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10588,7 +10588,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.900445,-77.269091" 
+"coordinates_latlong" : "38.900445,-77.269091" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10605,7 +10605,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.900443,-77.273751" 
+"coordinates_latlong" : "38.900443,-77.273751" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10622,7 +10622,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.908639,-77.266393" 
+"coordinates_latlong" : "38.908639,-77.266393" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10639,7 +10639,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9069125,-77.2634937" 
+"coordinates_latlong" : "38.9069125,-77.2634937" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10656,7 +10656,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.907428,-77.254905" 
+"coordinates_latlong" : "38.907428,-77.254905" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10673,7 +10673,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.910173,-77.262673" 
+"coordinates_latlong" : "38.910173,-77.262673" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10690,7 +10690,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.911773,-77.271052" 
+"coordinates_latlong" : "38.911773,-77.271052" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10707,7 +10707,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10724,7 +10724,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9002901,-77.278027" 
+"coordinates_latlong" : "38.9002901,-77.278027" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10741,7 +10741,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9041733,-77.2742188" 
+"coordinates_latlong" : "38.9041733,-77.2742188" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10758,7 +10758,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.888815,-77.243828" 
+"coordinates_latlong" : "38.888815,-77.243828" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10775,7 +10775,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.902531,-77.277346" 
+"coordinates_latlong" : "38.902531,-77.277346" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10792,7 +10792,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8828316,-77.2639992" 
+"coordinates_latlong" : "38.8828316,-77.2639992" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10809,7 +10809,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8883555,-77.2649287" 
+"coordinates_latlong" : "38.8883555,-77.2649287" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10826,7 +10826,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8899241,-77.2469749" 
+"coordinates_latlong" : "38.8899241,-77.2469749" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10843,7 +10843,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8981759,-77.273669" 
+"coordinates_latlong" : "38.8981759,-77.273669" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10860,7 +10860,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8899241,-77.2469749" 
+"coordinates_latlong" : "38.8899241,-77.2469749" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10877,7 +10877,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8998194,-77.2505478" 
+"coordinates_latlong" : "38.8998194,-77.2505478" 
 },
 {
 "crimeDate" : "2008-11-07T23:59:59Z" ,
@@ -10894,7 +10894,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8847845,-77.2441651" 
+"coordinates_latlong" : "38.8847845,-77.2441651" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -10911,7 +10911,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.905091,-77.267299" 
+"coordinates_latlong" : "38.905091,-77.267299" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -10928,7 +10928,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -10945,7 +10945,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8974255,-77.2704306" 
+"coordinates_latlong" : "38.8974255,-77.2704306" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -10962,7 +10962,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8858953,-77.267028" 
+"coordinates_latlong" : "38.8858953,-77.267028" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -10979,7 +10979,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9023499,-77.273928" 
+"coordinates_latlong" : "38.9023499,-77.273928" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -10996,7 +10996,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.907079,-77.274843" 
+"coordinates_latlong" : "38.907079,-77.274843" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11013,7 +11013,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8899241,-77.2469749" 
+"coordinates_latlong" : "38.8899241,-77.2469749" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11030,7 +11030,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11047,7 +11047,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11064,7 +11064,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.888345,-77.269485" 
+"coordinates_latlong" : "38.888345,-77.269485" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11081,7 +11081,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.880903,-77.255892" 
+"coordinates_latlong" : "38.880903,-77.255892" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11098,7 +11098,7 @@
 "zipcode" : "26105" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-81.542614,39.320185" 
+"coordinates_latlong" : "-81.542614,39.320185" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11115,7 +11115,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9064265,-77.2518946" 
+"coordinates_latlong" : "38.9064265,-77.2518946" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11132,7 +11132,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9036267,-77.2786083" 
+"coordinates_latlong" : "38.9036267,-77.2786083" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11149,7 +11149,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9006064,-77.2664219" 
+"coordinates_latlong" : "38.9006064,-77.2664219" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11166,7 +11166,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11183,7 +11183,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9002901,-77.278027" 
+"coordinates_latlong" : "38.9002901,-77.278027" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11200,7 +11200,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11217,7 +11217,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.886653,-77.257578" 
+"coordinates_latlong" : "38.886653,-77.257578" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11234,7 +11234,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.919242,-77.249356" 
+"coordinates_latlong" : "38.919242,-77.249356" 
 },
 {
 "crimeDate" : "2008-11-14T23:59:59Z" ,
@@ -11251,7 +11251,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8875206,-77.242607" 
+"coordinates_latlong" : "38.8875206,-77.242607" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11268,7 +11268,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11285,7 +11285,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.882951,-77.266936" 
+"coordinates_latlong" : "38.882951,-77.266936" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11302,7 +11302,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11319,7 +11319,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.897846,-77.258217" 
+"coordinates_latlong" : "38.897846,-77.258217" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11336,7 +11336,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9006064,-77.2664219" 
+"coordinates_latlong" : "38.9006064,-77.2664219" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11353,7 +11353,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.884051,-77.245929" 
+"coordinates_latlong" : "38.884051,-77.245929" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11370,7 +11370,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.897644,-77.25484" 
+"coordinates_latlong" : "38.897644,-77.25484" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11387,7 +11387,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11404,7 +11404,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11421,7 +11421,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.899888,-77.281456" 
+"coordinates_latlong" : "38.899888,-77.281456" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11438,7 +11438,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.910173,-77.262673" 
+"coordinates_latlong" : "38.910173,-77.262673" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11455,7 +11455,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11472,7 +11472,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11489,7 +11489,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903468,-77.26255" 
+"coordinates_latlong" : "38.903468,-77.26255" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11506,7 +11506,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11523,7 +11523,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903468,-77.26255" 
+"coordinates_latlong" : "38.903468,-77.26255" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11540,7 +11540,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.900445,-77.269091" 
+"coordinates_latlong" : "38.900445,-77.269091" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11557,7 +11557,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9035396,-77.2709908" 
+"coordinates_latlong" : "38.9035396,-77.2709908" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11574,7 +11574,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910072,-77.26757" 
+"coordinates_latlong" : "38.910072,-77.26757" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11591,7 +11591,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8986004,-77.2652155" 
+"coordinates_latlong" : "38.8986004,-77.2652155" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11608,7 +11608,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.917105,-77.244588" 
+"coordinates_latlong" : "38.917105,-77.244588" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11625,7 +11625,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.884051,-77.245929" 
+"coordinates_latlong" : "38.884051,-77.245929" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11642,7 +11642,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11659,7 +11659,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11676,7 +11676,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9038112,-77.2649263" 
+"coordinates_latlong" : "38.9038112,-77.2649263" 
 },
 {
 "crimeDate" : "2008-11-21T23:59:59Z" ,
@@ -11693,7 +11693,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.893402,-77.249161" 
+"coordinates_latlong" : "38.893402,-77.249161" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11710,7 +11710,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11727,7 +11727,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.886778,-77.260213" 
+"coordinates_latlong" : "38.886778,-77.260213" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11744,7 +11744,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11761,7 +11761,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.896951,-77.249189" 
+"coordinates_latlong" : "38.896951,-77.249189" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11778,7 +11778,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.907029,-77.247979" 
+"coordinates_latlong" : "38.907029,-77.247979" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11795,7 +11795,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8953345,-77.2730363" 
+"coordinates_latlong" : "38.8953345,-77.2730363" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11812,7 +11812,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8875206,-77.242607" 
+"coordinates_latlong" : "38.8875206,-77.242607" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11829,7 +11829,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11846,7 +11846,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.90497,-77.260954" 
+"coordinates_latlong" : "38.90497,-77.260954" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11863,7 +11863,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11880,7 +11880,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8944818,-77.27404" 
+"coordinates_latlong" : "38.8944818,-77.27404" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11897,7 +11897,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9023499,-77.273928" 
+"coordinates_latlong" : "38.9023499,-77.273928" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11914,7 +11914,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.900445,-77.269091" 
+"coordinates_latlong" : "38.900445,-77.269091" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11931,7 +11931,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8944818,-77.27404" 
+"coordinates_latlong" : "38.8944818,-77.27404" 
 },
 {
 "crimeDate" : "2008-11-26T23:59:59Z" ,
@@ -11948,7 +11948,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848981,-77.2523516" 
+"coordinates_latlong" : "38.8848981,-77.2523516" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -11965,7 +11965,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.905091,-77.267299" 
+"coordinates_latlong" : "38.905091,-77.267299" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -11982,7 +11982,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8980309,-77.2696649" 
+"coordinates_latlong" : "38.8980309,-77.2696649" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -11999,7 +11999,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12016,7 +12016,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12033,7 +12033,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.887044,-77.254561" 
+"coordinates_latlong" : "38.887044,-77.254561" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12050,7 +12050,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903468,-77.26255" 
+"coordinates_latlong" : "38.903468,-77.26255" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12067,7 +12067,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8953345,-77.2730363" 
+"coordinates_latlong" : "38.8953345,-77.2730363" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12084,7 +12084,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9065419,-77.2773683" 
+"coordinates_latlong" : "38.9065419,-77.2773683" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12101,7 +12101,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263657,38.900349" 
+"coordinates_latlong" : "-77.263657,38.900349" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12118,7 +12118,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12135,7 +12135,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8895814,-77.2523258" 
+"coordinates_latlong" : "38.8895814,-77.2523258" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12152,7 +12152,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.910173,-77.262673" 
+"coordinates_latlong" : "38.910173,-77.262673" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12169,7 +12169,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.88675,-77.248333" 
+"coordinates_latlong" : "38.88675,-77.248333" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12186,7 +12186,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8979202,-77.2643354" 
+"coordinates_latlong" : "38.8979202,-77.2643354" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12203,7 +12203,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12220,7 +12220,7 @@
 "zipcode" : "None" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.916961,-77.257261" 
+"coordinates_latlong" : "38.916961,-77.257261" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12237,7 +12237,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.899859,-77.266648" 
+"coordinates_latlong" : "38.899859,-77.266648" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12254,7 +12254,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.883438,-77.248809" 
+"coordinates_latlong" : "38.883438,-77.248809" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12271,7 +12271,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.882287,-77.249214" 
+"coordinates_latlong" : "38.882287,-77.249214" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12288,7 +12288,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8907402,-77.2685179" 
+"coordinates_latlong" : "38.8907402,-77.2685179" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12305,7 +12305,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12322,7 +12322,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.892371,-77.271073" 
+"coordinates_latlong" : "38.892371,-77.271073" 
 },
 {
 "crimeDate" : "2008-12-05T23:59:59Z" ,
@@ -12339,7 +12339,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12356,7 +12356,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12373,7 +12373,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.890439,-77.266741" 
+"coordinates_latlong" : "38.890439,-77.266741" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12390,7 +12390,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.8946135,-77.273956" 
+"coordinates_latlong" : "38.8946135,-77.273956" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12407,7 +12407,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.904851,-77.255838" 
+"coordinates_latlong" : "38.904851,-77.255838" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12424,7 +12424,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.886653,-77.257578" 
+"coordinates_latlong" : "38.886653,-77.257578" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12441,7 +12441,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.882985,-77.2617162" 
+"coordinates_latlong" : "38.882985,-77.2617162" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12458,7 +12458,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12475,7 +12475,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.882985,-77.2617162" 
+"coordinates_latlong" : "38.882985,-77.2617162" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12492,7 +12492,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.912935,-77.269739" 
+"coordinates_latlong" : "38.912935,-77.269739" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12509,7 +12509,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.884585,-77.253938" 
+"coordinates_latlong" : "38.884585,-77.253938" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12526,7 +12526,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8944818,-77.27404" 
+"coordinates_latlong" : "38.8944818,-77.27404" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12543,7 +12543,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12560,7 +12560,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12577,7 +12577,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8963995,-77.2717136" 
+"coordinates_latlong" : "38.8963995,-77.2717136" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12594,7 +12594,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.904508,-77.264183" 
+"coordinates_latlong" : "38.904508,-77.264183" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12611,7 +12611,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903232,-77.266103" 
+"coordinates_latlong" : "38.903232,-77.266103" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12628,7 +12628,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9082005,-77.2566579" 
+"coordinates_latlong" : "38.9082005,-77.2566579" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12645,7 +12645,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.907612,-77.270289" 
+"coordinates_latlong" : "38.907612,-77.270289" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12662,7 +12662,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9116292,-77.2648077" 
+"coordinates_latlong" : "38.9116292,-77.2648077" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12679,7 +12679,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263654,38.900375" 
+"coordinates_latlong" : "-77.263654,38.900375" 
 },
 {
 "crimeDate" : "2008-12-12T23:59:59Z" ,
@@ -12696,7 +12696,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12713,7 +12713,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9024209,-77.2663416" 
+"coordinates_latlong" : "38.9024209,-77.2663416" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12730,7 +12730,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9036534,-77.2724092" 
+"coordinates_latlong" : "38.9036534,-77.2724092" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12747,7 +12747,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12764,7 +12764,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.8946135,-77.273956" 
+"coordinates_latlong" : "38.8946135,-77.273956" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12781,7 +12781,7 @@
 "zipcode" : "22181" ,
 "service" : "google" ,
 "accuracy" : "6" ,
-"coordinates" : "38.911096,-77.276391" 
+"coordinates_latlong" : "38.911096,-77.276391" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12798,7 +12798,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9007956,-77.2661861" 
+"coordinates_latlong" : "38.9007956,-77.2661861" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12815,7 +12815,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.901769,-77.268776" 
+"coordinates_latlong" : "38.901769,-77.268776" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12832,7 +12832,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.92018,-77.251377" 
+"coordinates_latlong" : "38.92018,-77.251377" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12849,7 +12849,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12866,7 +12866,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.905639,-77.27793" 
+"coordinates_latlong" : "38.905639,-77.27793" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12883,7 +12883,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8813656,-77.2595125" 
+"coordinates_latlong" : "38.8813656,-77.2595125" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12900,7 +12900,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8857395,-77.2634467" 
+"coordinates_latlong" : "38.8857395,-77.2634467" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12917,7 +12917,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8966832,-77.271355" 
+"coordinates_latlong" : "38.8966832,-77.271355" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12934,7 +12934,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.895347,-77.247601" 
+"coordinates_latlong" : "38.895347,-77.247601" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12951,7 +12951,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.905271,-77.256419" 
+"coordinates_latlong" : "38.905271,-77.256419" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12968,7 +12968,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.898347,-77.260639" 
+"coordinates_latlong" : "38.898347,-77.260639" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -12985,7 +12985,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8960133,-77.2722021" 
+"coordinates_latlong" : "38.8960133,-77.2722021" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -13002,7 +13002,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -13019,7 +13019,7 @@
 "zipcode" : "None" ,
 "service" : "yahoo" ,
 "accuracy" : "-1" ,
-"coordinates" : "-77.263657,38.900349" 
+"coordinates_latlong" : "-77.263657,38.900349" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -13036,7 +13036,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8828161,-77.2657839" 
+"coordinates_latlong" : "38.8828161,-77.2657839" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -13053,7 +13053,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.910072,-77.26757" 
+"coordinates_latlong" : "38.910072,-77.26757" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -13070,7 +13070,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8883555,-77.2649287" 
+"coordinates_latlong" : "38.8883555,-77.2649287" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -13087,7 +13087,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8996352,-77.2676352" 
+"coordinates_latlong" : "38.8996352,-77.2676352" 
 },
 {
 "crimeDate" : "2008-12-19T23:59:59Z" ,
@@ -13104,7 +13104,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8948854,-77.2477931" 
+"coordinates_latlong" : "38.8948854,-77.2477931" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13121,7 +13121,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13138,7 +13138,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903589,-77.251925" 
+"coordinates_latlong" : "38.903589,-77.251925" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13155,7 +13155,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.892863,-77.255111" 
+"coordinates_latlong" : "38.892863,-77.255111" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13172,7 +13172,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.913791,-77.265315" 
+"coordinates_latlong" : "38.913791,-77.265315" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13189,7 +13189,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.903589,-77.251925" 
+"coordinates_latlong" : "38.903589,-77.251925" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13206,7 +13206,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13223,7 +13223,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.90268,-77.2694" 
+"coordinates_latlong" : "38.90268,-77.2694" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13240,7 +13240,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.897243,-77.258917" 
+"coordinates_latlong" : "38.897243,-77.258917" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13257,7 +13257,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8970466,-77.2708974" 
+"coordinates_latlong" : "38.8970466,-77.2708974" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13274,7 +13274,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9036868,-77.2528958" 
+"coordinates_latlong" : "38.9036868,-77.2528958" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13291,7 +13291,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8997403,-77.2675017" 
+"coordinates_latlong" : "38.8997403,-77.2675017" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13308,7 +13308,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.910159,-77.25411" 
+"coordinates_latlong" : "38.910159,-77.25411" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13325,7 +13325,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8964449,-77.2625313" 
+"coordinates_latlong" : "38.8964449,-77.2625313" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13342,7 +13342,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8882481,-77.2517497" 
+"coordinates_latlong" : "38.8882481,-77.2517497" 
 },
 {
 "crimeDate" : "2008-12-23T23:59:59Z" ,
@@ -13359,7 +13359,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8882481,-77.2517497" 
+"coordinates_latlong" : "38.8882481,-77.2517497" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13376,7 +13376,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8996449,-77.2674159" 
+"coordinates_latlong" : "38.8996449,-77.2674159" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13393,7 +13393,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.892371,-77.271073" 
+"coordinates_latlong" : "38.892371,-77.271073" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13410,7 +13410,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8818647,-77.2556141" 
+"coordinates_latlong" : "38.8818647,-77.2556141" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13427,7 +13427,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9089137,-77.2647624" 
+"coordinates_latlong" : "38.9089137,-77.2647624" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13444,7 +13444,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9042463,-77.2465313" 
+"coordinates_latlong" : "38.9042463,-77.2465313" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13461,7 +13461,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9000959,-77.2633357" 
+"coordinates_latlong" : "38.9000959,-77.2633357" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13478,7 +13478,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9015618,-77.2652308" 
+"coordinates_latlong" : "38.9015618,-77.2652308" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13495,7 +13495,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9024209,-77.2663416" 
+"coordinates_latlong" : "38.9024209,-77.2663416" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13512,7 +13512,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.9042589,-77.2580469" 
+"coordinates_latlong" : "38.9042589,-77.2580469" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13529,7 +13529,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8875206,-77.242607" 
+"coordinates_latlong" : "38.8875206,-77.242607" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13546,7 +13546,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8944818,-77.27404" 
+"coordinates_latlong" : "38.8944818,-77.27404" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13563,7 +13563,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8910937,-77.259493" 
+"coordinates_latlong" : "38.8910937,-77.259493" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13580,7 +13580,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8861339,-77.2471867" 
+"coordinates_latlong" : "38.8861339,-77.2471867" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13597,7 +13597,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8910937,-77.259493" 
+"coordinates_latlong" : "38.8910937,-77.259493" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13614,7 +13614,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13631,7 +13631,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.915499,-77.256605" 
+"coordinates_latlong" : "38.915499,-77.256605" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13648,7 +13648,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8986004,-77.2652155" 
+"coordinates_latlong" : "38.8986004,-77.2652155" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13665,7 +13665,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8848377,-77.2441367" 
+"coordinates_latlong" : "38.8848377,-77.2441367" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13682,7 +13682,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8872,-77.249119" 
+"coordinates_latlong" : "38.8872,-77.249119" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13699,7 +13699,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "7" ,
-"coordinates" : "38.9038,-77.264911" 
+"coordinates_latlong" : "38.9038,-77.264911" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13716,7 +13716,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.8982667,-77.2693705" 
+"coordinates_latlong" : "38.8982667,-77.2693705" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13733,7 +13733,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.889631,-77.270143" 
+"coordinates_latlong" : "38.889631,-77.270143" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13750,7 +13750,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.900753,-77.260477" 
+"coordinates_latlong" : "38.900753,-77.260477" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13767,7 +13767,7 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.899684,-77.268339" 
+"coordinates_latlong" : "38.899684,-77.268339" 
 },
 {
 "crimeDate" : "2008-12-31T23:59:59Z" ,
@@ -13784,6 +13784,6 @@
 "zipcode" : "22180" ,
 "service" : "google" ,
 "accuracy" : "8" ,
-"coordinates" : "38.902554,-77.252906" 
+"coordinates_latlong" : "38.902554,-77.252906" 
 }
 ]

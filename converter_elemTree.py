@@ -81,7 +81,7 @@ for crimeNode in crimeTree.findall('class'):
 			# longitude. means we have both Geo fields an we can add it as a field
 			elif crimeElement.attrib['name'] == 'LonY':
 				lon = crimeElement.text
-				sys.stdout.write(jsonField % ('coordinates',  lat+','+lon, commaChar))
+				sys.stdout.write(jsonField % ('coordinates_latlong',  lat+','+lon, commaChar))
 			# normal field add it
 			else: 
 				sys.stdout.write(jsonField % (crimeElement.attrib['name'].lower(),  crimeElement.text, commaChar))
