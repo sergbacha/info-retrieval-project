@@ -510,8 +510,13 @@
    <field name="zipcode" 	type="lowercase" 	indexed="true" stored="true" required="true" />
    <field name="service" 	type="lowercase" 	indexed="false" stored="true" required="false" />
    <field name="accuracy" 	type="lowercase" 	indexed="false" stored="true" required="false" />
-   <field name="latx" 		type="lowercase" 	indexed="true" stored="true" required="false" />
-   <field name="lony" 		type="lowercase" 	indexed="true" stored="true" required="false" />
+   <field name="latx" 		type="lowercase" 	indexed="false" stored="true" required="false" />
+   <field name="lony" 		type="lowercase" 	indexed="false" stored="true" required="false" />
+
+   <!--
+   The geo spatial field of the crime. The lattitude and longitude of where the crime occured
+    -->
+   <field name="coordinates" type="location" indexed="true" stored="true"/>
 
    <field name="timestamp" type="tdate" indexed="true" stored="true" default="NOW" multiValued="false"/>
 

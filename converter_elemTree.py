@@ -17,6 +17,13 @@ jsonField = '\"%s\" : \"%s\" %s\n'
 # flag indicating first entry
 firstEntry = True
 
+# fields to store the lattitude and longitude
+lat = 0.0;
+long = 0.0;
+
+#last field of the entry to know when to finish the json entry
+lastField = 'LonY'
+
 commaChar = ','
 
 # loop through each crime data node
@@ -50,9 +57,8 @@ for crimeNode in crimeTree.findall('class'):
 				#else, its probably an address or something else
 				continue
 
-			# LonY is last element of entries. If we encounter it,
-			# don't put a comma. its the last json entry
-			if crimeElement.attrib['name'] != 'LonY':
+			# if not the last field, comma will be added an end of this field
+			if crimeElement.attrib['name'] != lastField:
 				commaChar = ','
 			else:
 				commaChar = ''
@@ -69,6 +75,13 @@ for crimeNode in crimeTree.findall('class'):
 				date = crimeElement.text.replace('.txt','').split('-')
 				solrDateFormat = date[2]+'-'+date[0]+'-'+date[1]+"T23:59:59Z"
 				sys.stdout.write(jsonField % ('crimeDate', solrDateFormat, commaChar))
+			# Lattitude, store it
+			elif crimeElement.attrib['name'] == 'LatX':
+				lat = crimeElement.text
+			# longitude. means we have both Geo fields an we can add it as a field
+			elif crimeElement.attrib['name'] == 'LonY':
+				lon = crimeElement.text
+				sys.stdout.write(jsonField % ('coordinates',  lat+','+lon, commaChar))
 			# normal field add it
 			else: 
 				sys.stdout.write(jsonField % (crimeElement.attrib['name'].lower(),  crimeElement.text, commaChar))
