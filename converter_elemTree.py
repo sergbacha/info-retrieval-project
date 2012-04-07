@@ -1,8 +1,12 @@
 import elementtree.ElementTree as ET
 import sys
+import hashlib
 
 # load command line argument (xml file name)
 xmlfile = sys.argv[1]
+
+# load the object that will hash things
+
 
 # parse the xml file
 crimeTree = ET.parse(xmlfile)
@@ -30,7 +34,16 @@ for crimeNode in crimeTree.findall('class'):
 				
 				#else
 				continue
-						
+
+			# create the id hash from the crimeNumber
+			if crimeElement.attrib['name'] == 'CrimeNumber':
+				print 'id', ':', hashlib.md5(crimeElement.text).hexdigest()
+				continue
+
+			# create a date from the File field
+			if crimeElement.attrib['name'] == 'File':
+				print 'crimeDate', ':', crimeElement.text
+				continue
 			
 			
 			print crimeElement.attrib['name'], ':' , crimeElement.text
