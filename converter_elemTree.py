@@ -14,9 +14,8 @@ crimeTree = ET.parse(xmlfile)
 # regular expression to use for each json field
 jsonField = '\"%s\" : \"%s\" %s\n'
 
-# print json opening array char
-print '['
-print '{'
+# flag indicating first entry
+firstEntry = True
 
 commaChar = ','
 
@@ -32,6 +31,13 @@ for crimeNode in crimeTree.findall('class'):
 		
 		# loop through every child in the xml. deep traversal
 		for crimeElement in crimeData:
+			
+			#if first entry, just print out initial opening brackets
+			if firstEntry:
+				print '['
+				print '{'
+				firstEntry = False
+				continue
 			
 			# if we encounter a class tag
 			if crimeElement.tag == 'class':
@@ -60,8 +66,9 @@ for crimeNode in crimeTree.findall('class'):
 				continue
 			# create a date from the File field
 			elif crimeElement.attrib['name'] == 'File':
-				unformattedDate = crimeElement.text
-				sys.stdout.write(jsonField % ('crimeDate', unformattedDate.replace('.txt',''), commaChar))
+				date = crimeElement.text.replace('.txt','').split('-')
+				solrDateFormat = date[2]+'-'+date[0]+'-'+date[1]+"T23:59:59Z"
+				sys.stdout.write(jsonField % ('crimeDate', solrDateFormat, commaChar))
 			# normal field add it
 			else: 
 				sys.stdout.write(jsonField % (crimeElement.attrib['name'].lower(),  crimeElement.text, commaChar))
