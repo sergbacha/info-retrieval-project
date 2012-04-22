@@ -1,5 +1,8 @@
 package com.vt.ir.adapters;
 
+import com.vt.ir.fragments.SearchFragment;
+import com.vt.ir.fragments.SubmitCrimeFragment;
+
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -8,31 +11,37 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
 
+	SearchFragment mSearchFragment;
+	SubmitCrimeFragment mSubmitCrimeFragment;
+	
+	static private final int ITEM_SEARCH_FRAGMENT = 0;
+	static private final int ITEM_SUBMIT_CRIME_FRAGMENT = 1;
+	
 	/**
 	 * @param fm
 	 */
 	public HomeFragmentPagerAdapter(FragmentManager fm) {
 		super(fm);
-		// TODO Auto-generated constructor stub
+		
+		mSearchFragment = new SearchFragment();
+		mSubmitCrimeFragment = new SubmitCrimeFragment();
 	}
 
-	/* (non-Javadoc)
-	 * @see android.support.v4.app.FragmentPagerAdapter#getItem(int)
-	 */
 	@Override
-	public Fragment getItem(int arg0) {
-		// TODO Auto-generated method stub
-		return null;
+	public Fragment getItem(int item) {
+		switch(item){
+			case ITEM_SEARCH_FRAGMENT:
+				return mSearchFragment;
+			case ITEM_SUBMIT_CRIME_FRAGMENT:
+				return mSubmitCrimeFragment;
+			default:
+				return null;
+		}
 	}
 
-	/* (non-Javadoc)
-	 * @see android.support.v4.view.PagerAdapter#getCount()
-	 */
 	@Override
 	public int getCount() {
 		// TODO Auto-generated method stub
-		return 0;
+		return 2;
 	}
-	
-	
 }

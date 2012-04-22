@@ -4,6 +4,7 @@
 package com.vt.ir.ui;
 
 import android.content.Context;
+import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 
@@ -13,8 +14,6 @@ public class HomeViewPager extends ViewPager {
 
 	public HomeViewPager(Context context, AttributeSet attr) {
 		super(context, attr);
-		
 		mContext = context; 
-
 	}
 }
