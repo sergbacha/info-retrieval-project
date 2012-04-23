@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Locale;
 
 import com.vt.ir.R;
+import com.vt.ir.services.ServiceHelper;
 
 import android.app.Activity;
 import android.location.Address;
@@ -29,6 +30,8 @@ public class SearchFragment extends Fragment implements OnClickListener {
 	TextView mGeocodeResults;
 	Geocoder mGeocoder;
 	EditText mLocationEditText;
+	ServiceHelper mRestServieHelper;
+	Address mAddress;
 	
 	/* (non-Javadoc)
 	 * @see android.support.v4.app.Fragment#onAttach(android.app.Activity)
@@ -39,6 +42,7 @@ public class SearchFragment extends Fragment implements OnClickListener {
 		super.onAttach(activity);
 		
 		mGeocoder = new Geocoder(activity, Locale.getDefault());
+		mRestServieHelper = new ServiceHelper();
 	}
 	
 	/* (non-Javadoc)
@@ -56,10 +60,13 @@ public class SearchFragment extends Fragment implements OnClickListener {
 		
 		// references to view
 		mGeocodeResults = (TextView) v.findViewById(R.id.geocoded_results);
-		mLocationEditText = (EditText) v.findViewById(R.id.location);
+		mLocationEditText = (EditText) v.findViewById(R.id.input_text);
 		
-		// set the button listener
-		Button button = (Button) v.findViewById(R.id.search);
+		// set the button listeners
+		Button tempbutton = (Button) v.findViewById(R.id.location_button);
+		tempbutton.setOnClickListener(this);
+		
+		Button button = (Button) v.findViewById(R.id.search_button);
 		button.setOnClickListener(this);
 		
 		return v;
@@ -113,7 +120,7 @@ public class SearchFragment extends Fragment implements OnClickListener {
 	 */
 	public void onGeocodeComplete(Address result) {
 		mGeocodeResults.setText(result.getAddressLine(0));
-
+		mAddress = result;
 	}
 
 	/* (non-Javadoc)
@@ -121,11 +128,17 @@ public class SearchFragment extends Fragment implements OnClickListener {
 	 */
 	@Override
 	public void onClick(View v) {
-		String address = mLocationEditText.getText().toString();
+		int id = v.getId();
 		
-		// create and start the geocoding task
-		GeocodeAsyncTask task = new  GeocodeAsyncTask(mGeocoder);
-		task.execute(address);
+		String inputText = mLocationEditText.getText().toString();
 		
+		if(id == R.id.location_button){
+			// create and start the geocoding task
+			GeocodeAsyncTask task = new  GeocodeAsyncTask(mGeocoder);
+			task.execute(inputText);
+		}
+		else{
+			mRestServieHelper.search(getActivity(), mAddress, inputText);
+		}
 	}
 }

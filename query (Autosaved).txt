@@ -1,0 +1,6 @@
+http://localhost:8983/solr/select?wt=json&indent=true&q=car%20theft&fq={!geofil pt=38.8981759,-77.273669 d=1 sfield=coordinates_latlong}
+
+will get all items within the speficifed spatial filter
+
+
+how will the results be displayed, zip code conversion to latitude, longitued

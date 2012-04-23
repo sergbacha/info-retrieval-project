@@ -5,7 +5,7 @@
     android:orientation="vertical" >
 
     <EditText
-        android:id="@+id/location"
+        android:id="@+id/input_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
@@ -13,10 +13,10 @@
     </EditText>
 
     <Button
-        android:id="@+id/search"
+        android:id="@+id/location_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="location" />
 
     <ProgressBar
         android:id="@+id/progressBar1"
@@ -30,5 +30,11 @@
         android:layout_height="wrap_content"
         android:text="Medium Text"
         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="search" />
 
 </LinearLayout>
