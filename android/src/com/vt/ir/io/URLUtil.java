@@ -4,6 +4,8 @@
 package com.vt.ir.io;
 
 import java.io.UnsupportedEncodingException;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URLEncoder;
 
 /**
@@ -18,11 +20,11 @@ import java.net.URLEncoder;
  */
 public class URLUtil {
 
-	public static final String urlBase = "http://localhost:8983/solr/select?wt=json&indent=true";
+	public static final String urlBase = "http://192.168.10.112:8983/solr/select?wt=json&indent=true";
 	public static final String urlQueryArg = "&q=";
-	public static final String urlGeoFilterArg1 = "&fq={!geofilt pt=";
-	public static final String urlGeoFilterArg2 = " d=";
-	public static final String urlGeoFilterArg3 = " sfield=coordinates_latlong}";
+	public static final String urlGeoFilterArg1 = "&fq={!geofilt+pt=";
+	public static final String urlGeoFilterArg2 = "+d=";
+	public static final String urlGeoFilterArg3 = "+sfield=coordinates_latlong}";
 	
 	/**
 	 * Builds an http url that makes bouding box queries to our solr server
@@ -33,17 +35,30 @@ public class URLUtil {
 	public static String buildSolrBoundingBoxURL(String query, double lat, double lon, int distance){
 		StringBuilder sb = new StringBuilder(urlBase);
 		
-		sb.append(urlQueryArg).append(query);//add query
-		sb.append(urlGeoFilterArg1).append(lat).append(",").append(lon);//add lat long
-		sb.append(urlGeoFilterArg2).append(distance);//append diamter
-		sb.append(urlGeoFilterArg3);
+		// envocde query
 		
 		try {
-			return URLEncoder.encode(sb.toString(), "utf-8");
+			query = URLEncoder.encode(query, "utf-8");
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return null;
+		
+		// add to url
+		sb.append(urlQueryArg).append(query);//add query
+		sb.append(urlGeoFilterArg1).append(lat).append(",").append(lon);//add lat long
+		sb.append(urlGeoFilterArg2).append(distance);//append diamter
+		sb.append(urlGeoFilterArg3);
+
+//		URI uri = null;
+//		try {
+//			uri = new URI(sb.toString());
+//			return uri.toASCIIString();
+//		} catch (URISyntaxException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+
+		return sb.toString();
 	}
 }

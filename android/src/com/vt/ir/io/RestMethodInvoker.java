@@ -5,6 +5,7 @@ package com.vt.ir.io;
 
 import java.io.BufferedOutputStream;
 import java.io.IOException;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.security.KeyManagementException;
@@ -44,7 +45,7 @@ public class RestMethodInvoker implements HttpHelper{
 	private static final String TAG = "RestMethodInvoker";
 	private static final boolean DEBUG = true;
 	
-	HttpsURLConnection mHttpsURLConnection;
+	HttpURLConnection mHttpURLConnection;
 	Context mContext;
 
 	private URL mUrl;
@@ -76,18 +77,18 @@ public class RestMethodInvoker implements HttpHelper{
 		JsonNode getResponse = null;
 		
 		try {
-			mHttpsURLConnection = (HttpsURLConnection) mUrl.openConnection();
+			mHttpURLConnection = (HttpURLConnection) mUrl.openConnection();
 			loadCommonHttpSettings();
 
 			// read the input into our JSON vo wrapper
-			getResponse = jsonMapper.readTree(mHttpsURLConnection.getInputStream());
+			getResponse = jsonMapper.readTree(mHttpURLConnection.getInputStream());
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		finally {
-			mHttpsURLConnection.disconnect();
+			mHttpURLConnection.disconnect();
 		}
 		
 		return getResponse;
@@ -100,8 +101,9 @@ public class RestMethodInvoker implements HttpHelper{
 	 * 
 	 */
 	private void loadCommonHttpSettings() {
-		mHttpsURLConnection.addRequestProperty(USER_AGENT_HEADER, USER_AGENT + " ( " + Build.DEVICE + " " + Build.ID + ")");
-		mHttpsURLConnection.setRequestProperty(CONTENT_TYPE_HEADER, APPLICATION_JSON);
+		mHttpURLConnection.addRequestProperty(USER_AGENT_HEADER, USER_AGENT + " ( " + Build.DEVICE + " " + Build.ID + ")");
+		mHttpURLConnection.setRequestProperty(CONTENT_TYPE_HEADER, APPLICATION_JSON);
+		mHttpURLConnection.setRequestProperty("Connection", "keep-alive");
 	}
 }
 

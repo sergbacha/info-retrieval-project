@@ -3,6 +3,9 @@
       package="com.vt.ir"
       android:versionCode="1"
       android:versionName="1.0">
+      
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
     <application android:label="@string/app_name" >
         <activity android:name=".ui.CrimeHomeActivity"
                   android:label="@string/app_name">
