@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- use the custom TapControlledMapView -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+	>
+
 <com.readystatesoftware.maps.TapControlledMapView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/mapview"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:clickable="true"
-	android:apiKey="YOUR_API_KEY" />
+	android:apiKey="0Wuv4WpvUhr69-17414G_MIJcgT-8WTvTaoL4Fw" />
 
+</LinearLayout>

@@ -1,7 +1,7 @@
 package com.vt.ir.adapters;
 
-import com.vt.ir.fragments.SearchFragment;
-import com.vt.ir.fragments.SubmitCrimeFragment;
+import com.vt.ir.ui.fragments.SearchFragment;
+import com.vt.ir.ui.fragments.SubmitCrimeFragment;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

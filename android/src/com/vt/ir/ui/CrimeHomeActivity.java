@@ -1,12 +1,14 @@
 package com.vt.ir.ui;
 
 
-import com.vt.ir.R;
-import com.vt.ir.adapters.HomeFragmentPagerAdapter;
-
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.Window;
+import android.view.WindowManager;
+
+import com.vt.ir.R;
+import com.vt.ir.adapters.HomeFragmentPagerAdapter;
 
 /**
  * Entry activity for the crime search app
@@ -25,7 +27,10 @@ public class CrimeHomeActivity extends FragmentActivity {
 	
 	@Override
 	protected void onCreate(Bundle arg0) {
-		super.onCreate(arg0);
+				super.onCreate(arg0);
+//		requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, 
+                                WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		
 		setContentView(R.layout.activity_home);
 		

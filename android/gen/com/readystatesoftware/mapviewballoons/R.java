@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.vt.ir;
+package com.readystatesoftware.mapviewballoons;
 
 public final class R {
     public static final class attr {
