@@ -14,7 +14,7 @@ import java.net.URLEncoder;
  *
  */
 public class URLUtil {
-	public static final String urlBase = "http://192.168.10.112:8983/solr/select?wt=json&indent=true";
+	public static final String urlBase = "http://204.248.204.79:8983/solr/select?wt=json&indent=true";
 	public static final String urlQueryArg = "&q=";
 	public static final String urlGeoFilterArg1 = "&fq={!geofilt+pt=";
 	public static final String urlGeoFilterArg2 = "+d=";

@@ -4,7 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search:"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="@android:color/black"/>
+    
     <EditText
         android:id="@+id/query_text"
         android:layout_width="match_parent"
@@ -14,6 +21,20 @@
         <requestFocus />
     </EditText>
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="@android:color/black"/>
+
+    <CheckBox
+        android:id="@+id/my_location_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Location" 
+        android:textColor="@android:color/black"/>
     
     <EditText
         android:id="@+id/location_text"
@@ -39,7 +60,9 @@
 
     <Button
         android:id="@+id/search_button"
-        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="search" />
 

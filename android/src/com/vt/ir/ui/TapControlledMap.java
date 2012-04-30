@@ -180,4 +180,13 @@ public class TapControlledMap extends MapActivity implements OnMapPointsCreatedL
 		
 	}
 	
+	/* (non-Javadoc)
+	 * @see android.app.Activity#onStop()
+	 */
+	@Override
+	protected void onStop() {
+		// TODO Auto-generated method stub
+		super.onStop();
+		finish();
+	}
 }

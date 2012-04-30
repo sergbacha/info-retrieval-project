@@ -107,6 +107,7 @@ public class MapPointsAsyncTask extends AsyncTask<SimpleItemizedOverlay, Integer
 			OverlayItem overlayItem = new OverlayItem(point, 
 							Utils.boldQueryTerms(queryTermArray, c.getCatagory()), 
 							Utils.boldQueryTerms(queryTermArray, c.getDescription()));
+
 			itemizedOverlay.addOverlay(overlayItem);
 		}
 
