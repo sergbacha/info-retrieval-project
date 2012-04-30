@@ -3,17 +3,26 @@
  */
 package com.vt.ir.services;
 
+import java.io.IOException;
+import java.io.StringWriter;
+import java.io.Writer;
+
+import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.JsonNode;
+import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
+import org.codehaus.jackson.node.ObjectNode;
 
 import com.vt.ir.io.ResponseProcessor;
 import com.vt.ir.io.RestMethodInvoker;
 import com.vt.ir.io.URLUtil;
+import com.vt.ir.vo.Crime;
 
 import android.app.IntentService;
 import android.content.Intent;
 import android.location.Address;
 import android.os.Bundle;
+import android.util.Log;
 
 
 public class RestService extends IntentService {
@@ -22,9 +31,12 @@ public class RestService extends IntentService {
 	public static final String EXTRA_ADDRESS = "address";
 	public static final String EXTRA_QUERY = "query";
 	public static final String EXTRA_SERVICE_ACTION = "action";
+	public static final String EXTRA_CRIME = "crime";
+	
 	
 	public static final int ACTION_LOCAL_SEARCH = 0x01;
 	public static final int ACTION_BASIC_SEARCH = 0x02;
+	public static final int ACTION_SUBMIT_CRIME = 0x03;
 	
 	// Mapper responsible for building json nodes and such
 	ObjectMapper mObjectMapper;
@@ -70,11 +82,61 @@ public class RestService extends IntentService {
 				
 				basicSearch(basicQuery);
 				break;
+				
+			case ACTION_SUBMIT_CRIME:
+				
+				Crime crime = extras.getParcelable(EXTRA_CRIME);
+				
+				submitCrime(crime);
 			default:
 				break;
 		}
 	}
 
+	/**
+	 * submits a crime to the server
+	 * @param crime
+	 */
+	private void submitCrime(Crime crime) {
+		Writer strWriter = new StringWriter();
+		JsonNode rootNode = null;
+		try {
+			//create the root node
+			rootNode = mObjectMapper.createObjectNode();
+			
+			// add the add command
+			JsonNode addCommandNode = mObjectMapper.createObjectNode();
+			((ObjectNode)rootNode).put("add", addCommandNode );
+			
+			// add the doc node
+			JsonNode docNode = mObjectMapper.createObjectNode();
+			((ObjectNode)addCommandNode).put("doc", docNode );
+			
+			// add our data
+			mObjectMapper.writeValue(strWriter, crime);
+			String crimeJsonString =  strWriter.toString();
+			JsonNode crimeNode = mObjectMapper.readTree(crimeJsonString.getBytes());
+			((ObjectNode)docNode).putAll((ObjectNode)crimeNode);
+			
+			
+		} catch (JsonGenerationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (JsonMappingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		Log.d(TAG, ":");
+		
+		RestMethodInvoker invoker = new RestMethodInvoker(this, URLUtil.POST_CRIME_URL);
+		
+		invoker.post(mObjectMapper, rootNode.toString());
+		
+	}
 	/**
 	 * @param basicQuery
 	 */

@@ -20,6 +20,9 @@ public class URLUtil {
 	public static final String urlGeoFilterArg2 = "+d=";
 	public static final String urlGeoFilterArg3 = "+sfield=coordinates_latlong}";
 	
+	
+	public static final String POST_CRIME_URL = "http://204.248.204.79:8983/solr/update/json?commit=true";
+	
 	/**
 	 * Builds an HTTP URL that makes bounding box queries to our solr server
 	 * @param lat

@@ -3,6 +3,8 @@
  */
 package com.vt.ir.services;
 
+import com.vt.ir.vo.Crime;
+
 import android.content.Context;
 import android.content.Intent;
 import android.location.Address;
@@ -50,6 +52,23 @@ public class ServiceHelper  {
 		i.putExtra(RestService.EXTRA_QUERY, query);
 		// we want to do a search
 		i.putExtra(RestService.EXTRA_SERVICE_ACTION, RestService.ACTION_BASIC_SEARCH);
+		
+		context.startService(i);
+	}
+
+	/**
+	 * @param crimeHomeActivity
+	 * @param crime
+	 */
+	public void submitCrime(Context context, Crime crime) {
+		
+		// create the intent
+		Intent i = new Intent(context, RestService.class);
+		
+		// put in our extras
+		i.putExtra(RestService.EXTRA_CRIME, crime);
+		// we want to submit a crime
+		i.putExtra(RestService.EXTRA_SERVICE_ACTION, RestService.ACTION_SUBMIT_CRIME);
 		
 		context.startService(i);
 	}

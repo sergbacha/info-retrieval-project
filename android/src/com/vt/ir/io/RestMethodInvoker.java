@@ -8,18 +8,6 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.security.KeyManagementException;
-import java.security.NoSuchAlgorithmException;
-import java.security.cert.CertificateException;
-import java.security.cert.X509Certificate;
-
-import javax.net.ssl.HostnameVerifier;
-import javax.net.ssl.HttpsURLConnection;
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSession;
-import javax.net.ssl.SSLSocketFactory;
-import javax.net.ssl.TrustManager;
-import javax.net.ssl.X509TrustManager;
 
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.map.ObjectMapper;
@@ -91,6 +79,62 @@ public class RestMethodInvoker implements HttpHelper{
 		}
 		
 		return getResponse;
+	}
+	
+	/**
+	 * Send a post request to our server. It will use the URL that was created
+	 * at object initialization (see buildRestMethodInvoker(...))
+	 * 
+	 * @param newUser the JSON data we will add to our request body
+	 */
+	public JsonNode post(final ObjectMapper jsonMapper, final String jsonString) {
+		JsonNode postResponse = null;
+		
+		try {
+			Log.d(TAG, "posting: "+mUrl.toString());
+			
+			// open the connection
+			mHttpURLConnection = (HttpURLConnection) mUrl.openConnection();
+			
+			
+			// specificy other settings that all request verbs have in common
+			loadCommonHttpSettings();
+			
+			// specific settings settings of this verb
+			mHttpURLConnection.setDoOutput(true);
+			mHttpURLConnection.setDoInput(true);
+			mHttpURLConnection.setRequestMethod(HTTP_POST);
+
+
+			
+			// add data to connection
+//			final String data = jsonData.toString();
+			/** Performance suggestions per ANdroid javadocs HttpURLConnection*/
+			mHttpURLConnection.setFixedLengthStreamingMode(jsonString.length());
+			
+
+			// remember we set http.keepalive in IntroActivity to false
+			
+			// send the output // could also use DataOutputStream
+			BufferedOutputStream output = new BufferedOutputStream(mHttpURLConnection.getOutputStream());
+			output.write(jsonString.getBytes());
+			output.flush();
+			
+			output.close();
+			
+			// get the input
+			postResponse = jsonMapper.readTree(mHttpURLConnection.getInputStream());
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally {
+			// ALWAYS DISCONNECT
+			mHttpURLConnection.disconnect();
+		}
+		
+		return postResponse;
 	}
 
 	/**

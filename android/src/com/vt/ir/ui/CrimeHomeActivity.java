@@ -59,12 +59,12 @@ public class CrimeHomeActivity extends FragmentActivity implements OnSearchListe
 	public void onSearch(String query, Address address) {
 		
 		// put extra for search activity
-		Intent i = new Intent(this, TapControlledMap.class);
-		
-		Bundle extras = new Bundle();
-		extras.putString(TapControlledMap.EXTRA_QUERY, query);
-		extras.putParcelable(TapControlledMap.EXTRA_ADDRESS, address);
-		
+//		Intent i = new Intent(this, TapControlledMap.class);
+//		
+//		Bundle extras = new Bundle();
+//		extras.putString(TapControlledMap.EXTRA_QUERY, query);
+//		extras.putParcelable(TapControlledMap.EXTRA_ADDRESS, address);
+//		
 //		i.putExtras(extras);
 //		
 //		startActivity(i);        // rest service will get our crime positions!
@@ -78,6 +78,8 @@ public class CrimeHomeActivity extends FragmentActivity implements OnSearchListe
 	@Override
 	public void onCrimeSubmit(Crime crime) {
 		Log.d(TAG, "submitted a crime");
+		
+		mRestServiceHelper.submitCrime(this, crime);
 	}
 }
 

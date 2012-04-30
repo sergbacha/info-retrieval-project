@@ -3,6 +3,9 @@
  */
 package com.vt.ir.vo;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 /**
  * @author 	Sergio Bernales
  * @date 	Apr 30, 2012
@@ -10,7 +13,7 @@ package com.vt.ir.vo;
  * Copyright 2012 Locomoti LLC. All rights reserved.
  *
  */
-public class Crime {
+public class Crime implements Parcelable {
 	String crimeDate;
 	String id;
 	String catagory;
@@ -27,6 +30,10 @@ public class Crime {
 	String accuracy;
 	String coordinates_latlong;
 	String timestamp;
+	
+	public Crime() {
+		
+	}
 	
 	public String getCrimeDate() {
 		return crimeDate;
@@ -123,5 +130,66 @@ public class Crime {
 	}
 	public void setTimestamp(String timestamp) {
 		this.timestamp = timestamp;
+	}
+	/* (non-Javadoc)
+	 * @see android.os.Parcelable#describeContents()
+	 */
+	@Override
+	public int describeContents() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	/* (non-Javadoc)
+	 * @see android.os.Parcelable#writeToParcel(android.os.Parcel, int)
+	 */
+	@Override
+	public void writeToParcel(Parcel dest, int flags) {
+		dest.writeString(crimeDate);
+		dest.writeString(id);
+		dest.writeString(catagory);
+		dest.writeString(bussiness);
+		dest.writeString(county);
+		dest.writeString(catagorie);
+		dest.writeString(crimegroup);
+		dest.writeString(description);
+		dest.writeString(location);
+		dest.writeString(city);
+		dest.writeString(state);
+		dest.writeString(zipcode);
+		dest.writeString(service);
+		dest.writeString(accuracy);
+		dest.writeString(coordinates_latlong);
+		dest.writeString(timestamp);		
+	}
+	
+	public static final Parcelable.Creator<Crime> CREATOR
+	    = new Parcelable.Creator<Crime>() {
+		
+		public Crime createFromParcel(Parcel in) {
+		    return new Crime(in);
+		}
+		
+		public Crime[] newArray(int size) {
+		    return new Crime[size];
+		}
+	};
+	
+	private Crime(Parcel in) {
+		crimeDate = in.readString();
+		id = in.readString();
+		catagory = in.readString();
+		bussiness = in.readString();
+		county = in.readString();
+		catagorie = in.readString();
+		crimegroup = in.readString();
+		description = in.readString();
+		location = in.readString();
+		city = in.readString();
+		state = in.readString();
+		zipcode = in.readString();
+		service = in.readString();
+		accuracy = in.readString();
+		coordinates_latlong = in.readString();
+		timestamp = in.readString();
 	}
 }
