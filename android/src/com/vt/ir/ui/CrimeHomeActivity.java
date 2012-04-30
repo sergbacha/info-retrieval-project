@@ -6,6 +6,7 @@ import android.location.Address;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -13,6 +14,8 @@ import com.vt.ir.R;
 import com.vt.ir.adapters.HomeFragmentPagerAdapter;
 import com.vt.ir.services.ServiceHelper;
 import com.vt.ir.ui.fragments.SearchFragment.OnSearchListener;
+import com.vt.ir.ui.fragments.SubmitCrimeFragment.OnCrimeSubmitListener;
+import com.vt.ir.vo.Crime;
 
 /**
  * Entry activity for the crime search app
@@ -23,7 +26,7 @@ import com.vt.ir.ui.fragments.SearchFragment.OnSearchListener;
  * Copyright 2012 Locomoti LLC. All rights reserved.
  *
  */
-public class CrimeHomeActivity extends FragmentActivity implements OnSearchListener{
+public class CrimeHomeActivity extends FragmentActivity implements OnSearchListener, OnCrimeSubmitListener{
 	public static final String TAG = "HomeActivity";
 
 	ViewPager mViewPager;
@@ -67,6 +70,14 @@ public class CrimeHomeActivity extends FragmentActivity implements OnSearchListe
 //		startActivity(i);        // rest service will get our crime positions!
         
 		mRestServiceHelper.localSearch(this, address, query);
+	}
+
+	/* (non-Javadoc)
+	 * @see com.vt.ir.ui.fragments.SubmitCrimeFragment.OnCrimeSubmitListener#onCrimeSubmit()
+	 */
+	@Override
+	public void onCrimeSubmit(Crime crime) {
+		Log.d(TAG, "submitted a crime");
 	}
 }
 

@@ -26,9 +26,8 @@ public final class R {
         public static final int balloon_item_snippet=0x7f040006;
         public static final int balloon_item_title=0x7f040005;
         public static final int balloon_main_layout=0x7f040004;
-        public static final int datePicker1=0x7f040011;
-        public static final int editText1=0x7f040012;
-        public static final int editText2=0x7f040010;
+        public static final int crime_date=0x7f040011;
+        public static final int crime_description=0x7f040012;
         public static final int geocoded_results=0x7f04000e;
         public static final int home_view_pager=0x7f040002;
         public static final int location_text=0x7f04000c;
@@ -37,6 +36,7 @@ public final class R {
         public static final int progressBar1=0x7f04000d;
         public static final int query_text=0x7f040009;
         public static final int search_button=0x7f04000f;
+        public static final int spinner_category=0x7f040010;
         public static final int submit_button=0x7f040013;
         public static final int textView1=0x7f040008;
         public static final int textView2=0x7f04000a;
