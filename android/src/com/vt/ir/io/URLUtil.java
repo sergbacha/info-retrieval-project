@@ -1,11 +1,6 @@
-/**
- * 
- */
 package com.vt.ir.io;
 
 import java.io.UnsupportedEncodingException;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.net.URLEncoder;
 
 /**
@@ -19,7 +14,6 @@ import java.net.URLEncoder;
  *
  */
 public class URLUtil {
-
 	public static final String urlBase = "http://192.168.10.112:8983/solr/select?wt=json&indent=true";
 	public static final String urlQueryArg = "&q=";
 	public static final String urlGeoFilterArg1 = "&fq={!geofilt+pt=";
@@ -27,38 +21,55 @@ public class URLUtil {
 	public static final String urlGeoFilterArg3 = "+sfield=coordinates_latlong}";
 	
 	/**
-	 * Builds an http url that makes bouding box queries to our solr server
+	 * Builds an HTTP URL that makes bounding box queries to our solr server
 	 * @param lat
 	 * @param lon
-	 * @param query
+	 * @param localQuery
 	 */
-	public static String buildSolrBoundingBoxURL(String query, double lat, double lon, int distance){
+	public static String buildSolrBoundingBoxURL(String localQuery, double lat, double lon, int distance){
 		StringBuilder sb = new StringBuilder(urlBase);
 		
 		// envocde query
-		
+		localQuery = encodeURL(localQuery);
+
+		// add to url
+		sb.append(urlQueryArg).append(localQuery);//add query
+		sb.append(urlGeoFilterArg1).append(lat).append(",").append(lon);//add lat long
+		sb.append(urlGeoFilterArg2).append(distance);//append diamter
+		sb.append(urlGeoFilterArg3);
+
+		return sb.toString();
+	}
+
+	/**
+	 * just encodes our query stringper http standards
+	 * @param localQuery
+	 * @return
+	 */
+	private static String encodeURL(String localQuery) {
 		try {
-			query = URLEncoder.encode(query, "utf-8");
+			localQuery = URLEncoder.encode(localQuery, "utf-8");
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
+		return localQuery;
+	}
+
+	/**
+	 * Builds a basic query search URL. No distance necessary.
+	 * @return
+	 */
+	public static String buildBasicURL(String basicQuery) {
+		StringBuilder sb = new StringBuilder(urlBase);
+		
+		// envocde query
+		basicQuery = encodeURL(basicQuery);
+		
 		// add to url
-		sb.append(urlQueryArg).append(query);//add query
-		sb.append(urlGeoFilterArg1).append(lat).append(",").append(lon);//add lat long
-		sb.append(urlGeoFilterArg2).append(distance);//append diamter
-		sb.append(urlGeoFilterArg3);
-
-//		URI uri = null;
-//		try {
-//			uri = new URI(sb.toString());
-//			return uri.toASCIIString();
-//		} catch (URISyntaxException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-
+		sb.append(urlQueryArg).append(basicQuery);//add query
+		
 		return sb.toString();
 	}
 }

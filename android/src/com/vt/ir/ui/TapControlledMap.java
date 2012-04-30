@@ -18,6 +18,7 @@ package com.vt.ir.ui;
 import java.util.List;
 
 import android.graphics.drawable.Drawable;
+import android.location.Address;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.WindowManager;
@@ -30,23 +31,42 @@ import com.google.android.maps.OverlayItem;
 import com.readystatesoftware.maps.OnSingleTapListener;
 import com.readystatesoftware.maps.TapControlledMapView;
 import com.vt.ir.R;
+import com.vt.ir.services.ServiceHelper;
 
 public class TapControlledMap extends MapActivity {
 
+	public static final String EXTRA_QUERY = "extra_query";
+	public static final String EXTRA_ADDRESS = "extra_address";
+	
+	
+	String mQuery;
+	Address mAddress;
+	
 	TapControlledMapView mapView; // use the custom TapControlledMapView
 	List<Overlay> mapOverlays;
 	Drawable drawable;
 	Drawable drawable2;
 	SimpleItemizedOverlay itemizedOverlay;
 	SimpleItemizedOverlay itemizedOverlay2;
+	ServiceHelper mRestServieHelper;
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
 		
         super.onCreate(savedInstanceState);
-        
+
 //        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_mapview);
+        
+        // get the query extras
+        Bundle extras = getIntent().getExtras();
+        mQuery = extras.getString(EXTRA_QUERY);
+        mAddress = extras.getParcelable(EXTRA_ADDRESS);
+        
+        // rest service will get our crime positions!
+        mRestServieHelper = new ServiceHelper();
+        mRestServieHelper.localSearch(this, mAddress, mQuery);
+        
         
         mapView = (TapControlledMapView) findViewById(R.id.mapview);
 		mapView.setBuiltInZoomControls(true);

@@ -28,8 +28,9 @@
         android:id="@+id/geocoded_results"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Medium Text"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:text="It will appear here"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="@android:color/black"/>
 
     <Button
         android:id="@+id/search_button"

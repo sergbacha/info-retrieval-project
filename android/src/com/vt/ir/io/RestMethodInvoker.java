@@ -61,7 +61,6 @@ public class RestMethodInvoker implements HttpHelper{
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}
-
 	}
 
 	
@@ -106,4 +105,3 @@ public class RestMethodInvoker implements HttpHelper{
 		mHttpURLConnection.setRequestProperty("Connection", "keep-alive");
 	}
 }
-

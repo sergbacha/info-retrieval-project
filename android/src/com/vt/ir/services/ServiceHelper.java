@@ -20,7 +20,7 @@ public class ServiceHelper  {
 	 * @param address
 	 * @param query
 	 */
-	public void search(Context context, Address address, String query) {
+	public void localSearch(Context context, Address address, String query) {
 		
 		// create the intent
 		Intent i = new Intent(context, RestService.class);
@@ -29,7 +29,27 @@ public class ServiceHelper  {
 		i.putExtra(RestService.EXTRA_ADDRESS, address);
 		i.putExtra(RestService.EXTRA_QUERY, query);
 		// we want to do a search
-		i.putExtra(RestService.EXTRA_SERVICE_ACTION, RestService.ACTION_SEARCH);
+		i.putExtra(RestService.EXTRA_SERVICE_ACTION, RestService.ACTION_LOCAL_SEARCH);
+		
+		context.startService(i);
+	}
+	
+	/**
+	 * Create an intent to send out rest service that will do the
+	 * actual rest call to the solr server
+	 * 
+	 * @param context
+	 * @param query
+	 */
+	public void basicSearch(Context context, String query) {
+		
+		// create the intent
+		Intent i = new Intent(context, RestService.class);
+		
+		// put in the our extras
+		i.putExtra(RestService.EXTRA_QUERY, query);
+		// we want to do a search
+		i.putExtra(RestService.EXTRA_SERVICE_ACTION, RestService.ACTION_BASIC_SEARCH);
 		
 		context.startService(i);
 	}

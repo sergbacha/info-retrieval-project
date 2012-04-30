@@ -32,7 +32,6 @@ public class SearchFragment extends Fragment implements OnClickListener {
 	TextView mGeocodeResults;
 	Geocoder mGeocoder;
 	EditText mLocationEditText;
-	ServiceHelper mRestServieHelper;
 	Address mAddress;
 	
 	/* (non-Javadoc)
@@ -44,7 +43,6 @@ public class SearchFragment extends Fragment implements OnClickListener {
 		super.onAttach(activity);
 		
 		mGeocoder = new Geocoder(activity, Locale.getDefault());
-		mRestServieHelper = new ServiceHelper();
 	}
 	
 	/* (non-Javadoc)
@@ -140,9 +138,20 @@ public class SearchFragment extends Fragment implements OnClickListener {
 			task.execute(inputText);
 		}
 		else{
-			mRestServieHelper.search(getActivity(), mAddress, inputText);
-			Intent i = new Intent(getActivity(), TapControlledMap.class);
-			startActivity(i);
+			((OnSearchListener) getActivity()).onSearch("car theft", mAddress);
 		}
+	}
+	
+	/**
+	 * Parent activity should implement this to get a call
+	 * when user hits search
+	 * @author 	Sergio Bernales
+	 * @date 	Apr 27, 2012
+	 *
+	 * Copyright 2012 Locomoti LLC. All rights reserved.
+	 *
+	 */
+	public interface OnSearchListener{
+		public void onSearch(String query, Address address);
 	}
 }
