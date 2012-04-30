@@ -5,15 +5,25 @@ package com.vt.ir.io;
 
 import org.codehaus.jackson.JsonNode;
 
+import com.vt.ir.ui.TapControlledMap;
+
 import android.content.ContentResolver;
 import android.content.ContentValues;
+import android.content.Context;
+import android.content.Intent;
+import android.location.Address;
+import android.os.Bundle;
 import android.util.Log;
 
 
 public class ResponseProcessor {
 	private static final String TAG = "ResponseProcessor";
 	
+	public final static String EXTRA_JSON_STRING = "json_string";
+	
+	
 	ContentResolver mResolver;
+	
 	
 	
 	public ResponseProcessor(ContentResolver resolver){
@@ -23,9 +33,26 @@ public class ResponseProcessor {
 	/**
 	 * Processes the json results of a search query
 	 * @param searchResults
+	 * @param address 
 	 */
-	public void processSearchResults(JsonNode searchResults){
+	public void processSearchResults(Context context, JsonNode searchResults, Address address){
 		Log.d(TAG, searchResults.toString());
+		
+		Intent i = new Intent(context, TapControlledMap.class);
+		i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_HISTORY );
+		
+		Bundle extras = new Bundle();
+		extras.putString(EXTRA_JSON_STRING, searchResults.toString());
+		extras.putParcelable(TapControlledMap.EXTRA_ADDRESS, address);
+		i.putExtras(extras);
+		
+//		Bundle extras = new Bundle();
+//		extras.putString(TapControlledMap.EXTRA_QUERY, query);
+//		extras.putParcelable(TapControlledMap.EXTRA_ADDRESS, address);
+//		
+//		i.putExtras(extras);
+//		
+		context.startActivity(i);        // rest service will get our crime positions!
 	}
 
 //

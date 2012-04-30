@@ -18,6 +18,7 @@ import android.location.Geocoder;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -25,12 +26,14 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class SearchFragment extends Fragment implements OnClickListener {
 
 	TextView mGeocodeResults;
 	Geocoder mGeocoder;
+	EditText mQueryEditText;
 	EditText mLocationEditText;
 	Address mAddress;
 	
@@ -60,11 +63,12 @@ public class SearchFragment extends Fragment implements OnClickListener {
 		
 		// references to view
 		mGeocodeResults = (TextView) v.findViewById(R.id.geocoded_results);
-		mLocationEditText = (EditText) v.findViewById(R.id.input_text);
+		mQueryEditText = (EditText) v.findViewById(R.id.query_text);
+		mLocationEditText = (EditText) v.findViewById(R.id.location_text);
 		
-		// set the button listeners
-		Button tempbutton = (Button) v.findViewById(R.id.location_button);
-		tempbutton.setOnClickListener(this);
+//		// set the button listeners
+//		Button tempbutton = (Button) v.findViewById(R.id.location_button);
+//		tempbutton.setOnClickListener(this);
 		
 		Button button = (Button) v.findViewById(R.id.search_button);
 		button.setOnClickListener(this);
@@ -121,6 +125,7 @@ public class SearchFragment extends Fragment implements OnClickListener {
 	public void onGeocodeComplete(Address result) {
 		mGeocodeResults.setText(result.getAddressLine(0));
 		mAddress = result;
+		((OnSearchListener) getActivity()).onSearch(mQueryEditText.getText().toString(), mAddress);
 	}
 
 	/* (non-Javadoc)
@@ -130,16 +135,29 @@ public class SearchFragment extends Fragment implements OnClickListener {
 	public void onClick(View v) {
 		int id = v.getId();
 		
-		String inputText = mLocationEditText.getText().toString();
+		// get the input box vales
+		String queryText = mQueryEditText.getText().toString();
+		String locationText = mLocationEditText.getText().toString();
 		
-		if(id == R.id.location_button){
-			// create and start the geocoding task
-			GeocodeAsyncTask task = new  GeocodeAsyncTask(mGeocoder);
-			task.execute(inputText);
+		// if any are emtpy, ERROR
+		if(TextUtils.isEmpty(queryText) || TextUtils.isEmpty(locationText)){
+			Toast t = Toast.makeText(getActivity(), "Both query and location need to be filled", 5000);
+			t.show();
+			return;
 		}
-		else{
-			((OnSearchListener) getActivity()).onSearch("car theft", mAddress);
-		}
+			
+//		// first geocode the addrress
+		GeocodeAsyncTask task = new  GeocodeAsyncTask(mGeocoder);
+		task.execute(locationText);
+//		
+//		if(id == R.id.location_button){
+//			// create and start the geocoding task
+//			
+//			
+//		}
+//		else{
+//			
+//		}
 	}
 	
 	/**

@@ -87,7 +87,7 @@ public class RestService extends IntentService {
 		// get the dan thing
 		JsonNode searchResults = invoker.get(mObjectMapper);
 		
-		mResponseProcessor.processSearchResults(searchResults);
+		mResponseProcessor.processSearchResults(this, searchResults, null);
 	}
 	/**
 	 * Create an invoker objects to make a search
@@ -107,6 +107,6 @@ public class RestService extends IntentService {
 		// get the dan thing
 		JsonNode searchResults = invoker.get(mObjectMapper);
 		
-		mResponseProcessor.processSearchResults(searchResults);
+		mResponseProcessor.processSearchResults(this, searchResults, address);
 	}
 }

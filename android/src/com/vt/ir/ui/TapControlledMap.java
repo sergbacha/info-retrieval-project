@@ -31,9 +31,14 @@ import com.google.android.maps.OverlayItem;
 import com.readystatesoftware.maps.OnSingleTapListener;
 import com.readystatesoftware.maps.TapControlledMapView;
 import com.vt.ir.R;
+import com.vt.ir.Utils;
+import com.vt.ir.io.ResponseProcessor;
 import com.vt.ir.services.ServiceHelper;
+import com.vt.ir.tasks.MapPointsAsyncTask;
+import com.vt.ir.tasks.MapPointsAsyncTask.OnMapPointsCreatedListener;
+import com.vt.ir.vo.Crime;
 
-public class TapControlledMap extends MapActivity {
+public class TapControlledMap extends MapActivity implements OnMapPointsCreatedListener{
 
 	public static final String EXTRA_QUERY = "extra_query";
 	public static final String EXTRA_ADDRESS = "extra_address";
@@ -41,33 +46,25 @@ public class TapControlledMap extends MapActivity {
 	
 	String mQuery;
 	Address mAddress;
+	String mJsonResult;
+	MapPointsAsyncTask mMapPointsAsyncTask;
+	Crime[] mCrimes;
 	
 	TapControlledMapView mapView; // use the custom TapControlledMapView
-	List<Overlay> mapOverlays;
-	Drawable drawable;
-	Drawable drawable2;
-	SimpleItemizedOverlay itemizedOverlay;
-	SimpleItemizedOverlay itemizedOverlay2;
+	List<Overlay> mMapOverlays;
+	Drawable mDrawable;
+	Drawable mDrawable2;
+	SimpleItemizedOverlay mItemizedOverlay;
+	SimpleItemizedOverlay mItemizedOverlay2;
 	ServiceHelper mRestServieHelper;
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
 		
         super.onCreate(savedInstanceState);
-
-//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_mapview);
-        
-        // get the query extras
-        Bundle extras = getIntent().getExtras();
-        mQuery = extras.getString(EXTRA_QUERY);
-        mAddress = extras.getParcelable(EXTRA_ADDRESS);
-        
-        // rest service will get our crime positions!
-        mRestServieHelper = new ServiceHelper();
-        mRestServieHelper.localSearch(this, mAddress, mQuery);
-        
-        
+
+        // setup the map view
         mapView = (TapControlledMapView) findViewById(R.id.mapview);
 		mapView.setBuiltInZoomControls(true);
 		
@@ -75,73 +72,35 @@ public class TapControlledMap extends MapActivity {
 		mapView.setOnSingleTapListener(new OnSingleTapListener() {		
 			@Override
 			public boolean onSingleTap(MotionEvent e) {
-				itemizedOverlay.hideAllBalloons();
+				mItemizedOverlay.hideAllBalloons();
 				return true;
 			}
 		});
 		
-		mapOverlays = mapView.getOverlays();
+		// get references to map objects
+		mMapOverlays = mapView.getOverlays();
+		mDrawable = getResources().getDrawable(R.drawable.marker);
+		mDrawable2 = getResources().getDrawable(R.drawable.marker2);
 		
-		// first overlay
-		drawable = getResources().getDrawable(R.drawable.marker);
-		itemizedOverlay = new SimpleItemizedOverlay(drawable, mapView);
+		// create the itemized overlay 1
+		mItemizedOverlay = new SimpleItemizedOverlay(mDrawable, mapView);
 		// set iOS behavior attributes for overlay
-		itemizedOverlay.setShowClose(false);
-		itemizedOverlay.setShowDisclosure(true);
-		itemizedOverlay.setSnapToCenter(false);
+		mItemizedOverlay.setShowClose(false);
+		mItemizedOverlay.setShowDisclosure(true);
+		mItemizedOverlay.setSnapToCenter(false);
 		
-		GeoPoint point = new GeoPoint((int)(51.5174723*1E6),(int)(-0.0899537*1E6));
-		OverlayItem overlayItem = new OverlayItem(point, "Tomorrow Never Dies (1997)", 
-				"(M gives Bond his mission in Daimler car)");
-		itemizedOverlay.addOverlay(overlayItem);
+		// create itemized overlay 2
+		mItemizedOverlay2 = new SimpleItemizedOverlay(mDrawable2, mapView);
 		
-		GeoPoint point2 = new GeoPoint((int)(51.515259*1E6),(int)(-0.086623*1E6));
-		OverlayItem overlayItem2 = new OverlayItem(point2, "GoldenEye (1995)", 
-				"(Interiors Russian defence ministry council chambers in St Petersburg)");		
-		itemizedOverlay.addOverlay(overlayItem2);
 		
-		mapOverlays.add(itemizedOverlay);
-		
-		// second overlay
-		drawable2 = getResources().getDrawable(R.drawable.marker2);
-		itemizedOverlay2 = new SimpleItemizedOverlay(drawable2, mapView);
-		// set iOS behavior attributes for overlay
-		itemizedOverlay2.setShowClose(false);
-		itemizedOverlay2.setShowDisclosure(true);
-		itemizedOverlay2.setSnapToCenter(false);
-		
-		GeoPoint point3 = new GeoPoint((int)(51.513329*1E6),(int)(-0.08896*1E6));
-		OverlayItem overlayItem3 = new OverlayItem(point3, "Sliding Doors (1998)", null);
-		itemizedOverlay2.addOverlay(overlayItem3);
-		
-		GeoPoint point4 = new GeoPoint((int)(51.51738*1E6),(int)(-0.08186*1E6));
-		OverlayItem overlayItem4 = new OverlayItem(point4, "Mission: Impossible (1996)", 
-				"(Ethan & Jim cafe meeting)");
-		itemizedOverlay2.addOverlay(overlayItem4);
-		
-		mapOverlays.add(itemizedOverlay2);
-		
-		if (savedInstanceState == null) {
-			
-			final MapController mc = mapView.getController();
-			mc.animateTo(point2);
-			mc.setZoom(16);
-			
-		} else {
-			
-			// example restoring focused state of overlays
-			int focused;
-			focused = savedInstanceState.getInt("focused_1", -1);
-			if (focused >= 0) {
-				itemizedOverlay.setFocus(itemizedOverlay.getItem(focused));
-			}
-			focused = savedInstanceState.getInt("focused_2", -1);
-			if (focused >= 0) {
-				itemizedOverlay2.setFocus(itemizedOverlay2.getItem(focused));
-			}
-			
-		}
-		
+        // get the query extras
+        Bundle extras = getIntent().getExtras();
+        mJsonResult = extras.getString(ResponseProcessor.EXTRA_JSON_STRING);
+        mAddress = extras.getParcelable(EXTRA_ADDRESS);
+        
+        // 	create the geo points that will be drawn on our map
+		mMapPointsAsyncTask = new MapPointsAsyncTask(mJsonResult, this);
+		mMapPointsAsyncTask.execute(mItemizedOverlay);
     }
 	
 	@Override
@@ -153,10 +112,72 @@ public class TapControlledMap extends MapActivity {
 	protected void onSaveInstanceState(Bundle outState) {
 		
 		// example saving focused state of overlays
-		if (itemizedOverlay.getFocus() != null) outState.putInt("focused_1", itemizedOverlay.getLastFocusedIndex());
-		if (itemizedOverlay2.getFocus() != null) outState.putInt("focused_2", itemizedOverlay2.getLastFocusedIndex());
+		if (mItemizedOverlay.getFocus() != null) outState.putInt("focused_1", mItemizedOverlay.getLastFocusedIndex());
+		if (mItemizedOverlay2.getFocus() != null) outState.putInt("focused_2", mItemizedOverlay2.getLastFocusedIndex());
 		super.onSaveInstanceState(outState);
 	
+	}
+
+	/* (non-Javadoc)
+	 * @see com.vt.ir.tasks.MapPointsAsyncTask.OnMapPointsCreatedListener#OnMapPointsCreated(com.vt.ir.ui.SimpleItemizedOverlay)
+	 */
+	@Override
+	public void OnMapPointsCreated(Crime[] crimes) {
+		
+		if(crimes == null)
+			return;
+		
+		// keep reference to the crimes as we will need it when user taps on them
+		mCrimes = crimes;
+		
+		// add the aadded overlay to the map
+		mMapOverlays.add(mItemizedOverlay);
+//		
+//		// second overlay
+//
+//		// set iOS behavior attributes for overlay
+//		mItemizedOverlay2.setShowClose(false);
+//		mItemizedOverlay2.setShowDisclosure(true);
+//		mItemizedOverlay2.setSnapToCenter(false);
+//		
+//		GeoPoint point3 = new GeoPoint((int)(51.513329*1E6),(int)(-0.08896*1E6));
+//		OverlayItem overlayItem3 = new OverlayItem(point3, "Sliding Doors (1998)", null);
+//		mItemizedOverlay2.addOverlay(overlayItem3);
+//		
+//		GeoPoint point4 = new GeoPoint((int)(51.51738*1E6),(int)(-0.08186*1E6));
+//		OverlayItem overlayItem4 = new OverlayItem(point4, "Mission: Impossible (1996)", 
+//				"(Ethan & Jim cafe meeting)");
+//		mItemizedOverlay2.addOverlay(overlayItem4);
+//		
+//		mMapOverlays.add(mItemizedOverlay2);
+		
+//		if (savedInstanceState == null) {
+//			
+		
+		// center our map approriatley
+	
+		final MapController mc = mapView.getController();
+		
+		int[] centerCoords = Utils.getCoordinates(mAddress);
+		GeoPoint p = new GeoPoint(centerCoords[Utils.LON_IN_ARRAY], centerCoords[Utils.LAT_IN_ARRAY]);
+		mc.animateTo(p);
+		mc.setZoom(15);// zoome level tweak
+			
+//		} else {
+//			
+//			// example restoring focused state of overlays
+//			int focused;
+//			focused = savedInstanceState.getInt("focused_1", -1);
+//			if (focused >= 0) {
+//				itemizedOverlay.setFocus(itemizedOverlay.getItem(focused));
+//			}
+//			focused = savedInstanceState.getInt("focused_2", -1);
+//			if (focused >= 0) {
+//				itemizedOverlay2.setFocus(itemizedOverlay2.getItem(focused));
+//			}
+//			
+//		}
+		
 	}
 	
 }

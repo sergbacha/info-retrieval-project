@@ -4,19 +4,24 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+
     <EditText
-        android:id="@+id/input_text"
+        android:id="@+id/query_text"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:text="Query" >
 
         <requestFocus />
     </EditText>
 
-    <Button
-        android:id="@+id/location_button"
-        android:layout_width="wrap_content"
+    
+    <EditText
+        android:id="@+id/location_text"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="location" />
+        android:text="22180" >
+
+    </EditText>
 
     <ProgressBar
         android:id="@+id/progressBar1"

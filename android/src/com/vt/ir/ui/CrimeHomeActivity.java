@@ -28,6 +28,7 @@ public class CrimeHomeActivity extends FragmentActivity implements OnSearchListe
 
 	ViewPager mViewPager;
 	HomeFragmentPagerAdapter mHomePagerAdapter;
+	ServiceHelper mRestServiceHelper;
 	
 	@Override
 	protected void onCreate(Bundle arg0) {
@@ -44,7 +45,8 @@ public class CrimeHomeActivity extends FragmentActivity implements OnSearchListe
 		// put in fragment pager adapter
 		mHomePagerAdapter = new HomeFragmentPagerAdapter(getSupportFragmentManager());
 		mViewPager.setAdapter(mHomePagerAdapter);
-
+		
+		mRestServiceHelper = new ServiceHelper();
 	}
 
 	/* (non-Javadoc)
@@ -60,9 +62,11 @@ public class CrimeHomeActivity extends FragmentActivity implements OnSearchListe
 		extras.putString(TapControlledMap.EXTRA_QUERY, query);
 		extras.putParcelable(TapControlledMap.EXTRA_ADDRESS, address);
 		
-		i.putExtras(extras);
-		
-		startActivity(i);
+//		i.putExtras(extras);
+//		
+//		startActivity(i);        // rest service will get our crime positions!
+        
+		mRestServiceHelper.localSearch(this, address, query);
 	}
 }
 
