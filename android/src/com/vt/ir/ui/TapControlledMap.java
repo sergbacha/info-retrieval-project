@@ -54,8 +54,8 @@ public class TapControlledMap extends MapActivity implements OnMapPointsCreatedL
 	List<Overlay> mMapOverlays;
 	Drawable mDrawable;
 	Drawable mDrawable2;
-	SimpleItemizedOverlay mItemizedOverlay;
-	SimpleItemizedOverlay mItemizedOverlay2;
+	SimpleItemizedOverlay mDBItemizedOverlay;
+	SimpleItemizedOverlay mUserItemizedOverlay;
 	ServiceHelper mRestServieHelper;
 	
 	@Override
@@ -72,7 +72,7 @@ public class TapControlledMap extends MapActivity implements OnMapPointsCreatedL
 		mapView.setOnSingleTapListener(new OnSingleTapListener() {		
 			@Override
 			public boolean onSingleTap(MotionEvent e) {
-				mItemizedOverlay.hideAllBalloons();
+				mDBItemizedOverlay.hideAllBalloons();
 				return true;
 			}
 		});
@@ -83,14 +83,14 @@ public class TapControlledMap extends MapActivity implements OnMapPointsCreatedL
 		mDrawable2 = getResources().getDrawable(R.drawable.marker2);
 		
 		// create the itemized overlay 1
-		mItemizedOverlay = new SimpleItemizedOverlay(mDrawable, mapView);
+		mDBItemizedOverlay = new SimpleItemizedOverlay(mDrawable, mapView);
 		// set iOS behavior attributes for overlay
-		mItemizedOverlay.setShowClose(false);
-		mItemizedOverlay.setShowDisclosure(true);
-		mItemizedOverlay.setSnapToCenter(false);
+		mDBItemizedOverlay.setShowClose(false);
+		mDBItemizedOverlay.setShowDisclosure(true);
+		mDBItemizedOverlay.setSnapToCenter(false);
 		
 		// create itemized overlay 2
-		mItemizedOverlay2 = new SimpleItemizedOverlay(mDrawable2, mapView);
+		mUserItemizedOverlay = new SimpleItemizedOverlay(mDrawable2, mapView);
 		
 		
         // get the query extras
@@ -100,7 +100,7 @@ public class TapControlledMap extends MapActivity implements OnMapPointsCreatedL
         
         // 	create the geo points that will be drawn on our map
 		mMapPointsAsyncTask = new MapPointsAsyncTask(mJsonResult, this);
-		mMapPointsAsyncTask.execute(mItemizedOverlay);
+		mMapPointsAsyncTask.execute(mDBItemizedOverlay, mUserItemizedOverlay);
     }
 	
 	@Override
@@ -112,8 +112,8 @@ public class TapControlledMap extends MapActivity implements OnMapPointsCreatedL
 	protected void onSaveInstanceState(Bundle outState) {
 		
 		// example saving focused state of overlays
-		if (mItemizedOverlay.getFocus() != null) outState.putInt("focused_1", mItemizedOverlay.getLastFocusedIndex());
-		if (mItemizedOverlay2.getFocus() != null) outState.putInt("focused_2", mItemizedOverlay2.getLastFocusedIndex());
+		if (mDBItemizedOverlay.getFocus() != null) outState.putInt("focused_1", mDBItemizedOverlay.getLastFocusedIndex());
+		if (mUserItemizedOverlay.getFocus() != null) outState.putInt("focused_2", mUserItemizedOverlay.getLastFocusedIndex());
 		super.onSaveInstanceState(outState);
 	
 	}
@@ -131,7 +131,8 @@ public class TapControlledMap extends MapActivity implements OnMapPointsCreatedL
 		mCrimes = crimes;
 		
 		// add the aadded overlay to the map
-		mMapOverlays.add(mItemizedOverlay);
+		mMapOverlays.add(mDBItemizedOverlay);
+		mMapOverlays.add(mUserItemizedOverlay);
 //		
 //		// second overlay
 //
@@ -181,12 +182,22 @@ public class TapControlledMap extends MapActivity implements OnMapPointsCreatedL
 	}
 	
 	/* (non-Javadoc)
+	 * @see com.google.android.maps.MapActivity#onPause()
+	 */
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		finish();
+	}
+	
+	/* (non-Javadoc)
 	 * @see android.app.Activity#onStop()
 	 */
 	@Override
 	protected void onStop() {
 		// TODO Auto-generated method stub
 		super.onStop();
-		finish();
+//		finish();
 	}
 }

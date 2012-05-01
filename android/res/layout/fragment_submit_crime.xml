@@ -29,7 +29,9 @@
         android:id="@+id/my_location_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Location" />
+        android:text="Use My Location" 
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <EditText
         android:id="@+id/location_text"
@@ -63,7 +65,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.40"
-        android:inputType="textMultiLine" >
+        android:inputType="textMultiLine"
+        android:gravity="top" >
 
     </EditText>
     

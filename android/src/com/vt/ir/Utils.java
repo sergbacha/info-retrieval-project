@@ -4,6 +4,7 @@
 package com.vt.ir;
 
 import android.location.Address;
+import android.text.TextUtils;
 
 /**
  * @author 	Sergio Bernales
@@ -65,10 +66,10 @@ public class Utils {
 	 * @param text
 	 * @return
 	 */
-	public static String boldQueryTerms(String[] terms, String text){
+	public static String capsQueryTerms(String[] terms, String text){
 		
 		for(String t : terms){
-			text = text.replace(t, "<b>"+t+"</b>");
+			text = text.replace(t, t.toUpperCase());
 		}
 		
 		return text;

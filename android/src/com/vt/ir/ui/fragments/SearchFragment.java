@@ -30,6 +30,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -43,6 +44,7 @@ public class SearchFragment extends Fragment implements OnClickListener, OnCheck
 	Address mAddress;
 	private CheckBox mCheckBox;
 	private boolean mMyLocationChecked;
+	ProgressBar mProgressBar;
 	
 	/* (non-Javadoc)
 	 * @see android.support.v4.app.Fragment#onAttach(android.app.Activity)
@@ -72,7 +74,7 @@ public class SearchFragment extends Fragment implements OnClickListener, OnCheck
 		mGeocodeResults = (TextView) v.findViewById(R.id.geocoded_results);
 		mQueryEditText = (EditText) v.findViewById(R.id.query_text);
 		mLocationEditText = (EditText) v.findViewById(R.id.location_text);
-		
+		mProgressBar = (ProgressBar) v.findViewById(R.id.search_progress);
 		
 //		// set the button listeners
 //		Button tempbutton = (Button) v.findViewById(R.id.location_button);
@@ -86,6 +88,16 @@ public class SearchFragment extends Fragment implements OnClickListener, OnCheck
 		mCheckBox.setOnCheckedChangeListener(this);
 		
 		return v;
+	}
+	
+	/* (non-Javadoc)
+	 * @see android.support.v4.app.Fragment#onResume()
+	 */
+	@Override
+	public void onResume() {
+		// TODO Auto-generated method stub
+		super.onResume();
+		mProgressBar.setVisibility(View.GONE);
 	}
 	
 	/**
@@ -157,7 +169,7 @@ public class SearchFragment extends Fragment implements OnClickListener, OnCheck
 			t.show();
 			return;
 		}
-			
+		mProgressBar.setVisibility(View.VISIBLE);
 //		// first geocode the addrress
 		if(!mMyLocationChecked){
 			GeocodeAsyncTask task = new  GeocodeAsyncTask(mGeocoder);
@@ -213,7 +225,7 @@ public class SearchFragment extends Fragment implements OnClickListener, OnCheck
 	        
 	         mAddress = new Address(Locale.getDefault());
 	         mAddress.setLongitude(l.getLongitude());
-	         mAddress.setLongitude(l.getLatitude());
+	         mAddress.setLatitude(l.getLatitude());
 		}
 		else {
 			mLocationEditText.setEnabled(true);

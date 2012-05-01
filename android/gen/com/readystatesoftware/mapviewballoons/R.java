@@ -28,14 +28,14 @@ public final class R {
         public static final int balloon_main_layout=0x7f040004;
         public static final int crime_date=0x7f040011;
         public static final int crime_description=0x7f040012;
-        public static final int geocoded_results=0x7f04000e;
+        public static final int geocoded_results=0x7f04000f;
         public static final int home_view_pager=0x7f040002;
         public static final int location_text=0x7f04000c;
         public static final int mapview=0x7f040003;
         public static final int my_location_checkbox=0x7f04000b;
-        public static final int progressBar1=0x7f04000d;
         public static final int query_text=0x7f040009;
-        public static final int search_button=0x7f04000f;
+        public static final int search_button=0x7f04000d;
+        public static final int search_progress=0x7f04000e;
         public static final int spinner_category=0x7f040010;
         public static final int submit_button=0x7f040013;
         public static final int textView1=0x7f040008;

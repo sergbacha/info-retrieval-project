@@ -91,11 +91,13 @@ public class MapPointsAsyncTask extends AsyncTask<SimpleItemizedOverlay, Integer
 			e.printStackTrace();
 		}
 		
-		//get overlay where we will place our crime points
-		SimpleItemizedOverlay itemizedOverlay = params[0];
+		//get database entered crimes
+		SimpleItemizedOverlay dbItemizedOverlay = params[0];
+		//get user entered crimes
+		SimpleItemizedOverlay userItemizedOverlay = params[1];
 		
 		// make sure borht the crime objects and the overlay exist!
-		if(crimes == null || itemizedOverlay == null)
+		if(crimes == null || dbItemizedOverlay == null)
 			return null;
 				
 		
@@ -105,10 +107,17 @@ public class MapPointsAsyncTask extends AsyncTask<SimpleItemizedOverlay, Integer
 			int[] coords = Utils.splitCoordinates(c.getCoordinates_latlong());
 			GeoPoint point = new GeoPoint(coords[Utils.LAT_IN_ARRAY], coords[Utils.LON_IN_ARRAY]);
 			OverlayItem overlayItem = new OverlayItem(point, 
-							Utils.boldQueryTerms(queryTermArray, c.getCatagory()), 
-							Utils.boldQueryTerms(queryTermArray, c.getDescription()));
+							Utils.capsQueryTerms(queryTermArray, c.getCatagory()), 
+							Utils.capsQueryTerms(queryTermArray, c.getDescription()));
 
-			itemizedOverlay.addOverlay(overlayItem);
+			
+			// user entered ID's are only numbers
+			if (c.getId().matches("((-|\\+)?[0-9]+(\\.[0-9]+)?)+")) {  
+				userItemizedOverlay.addOverlay(overlayItem);  
+	        } else {  
+	        	dbItemizedOverlay.addOverlay(overlayItem);  
+	        } 
+			
 		}
 
 		return crimes;

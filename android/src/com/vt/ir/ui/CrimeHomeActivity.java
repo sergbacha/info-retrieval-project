@@ -9,6 +9,7 @@ import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import com.vt.ir.R;
 import com.vt.ir.adapters.HomeFragmentPagerAdapter;
@@ -80,6 +81,10 @@ public class CrimeHomeActivity extends FragmentActivity implements OnSearchListe
 		Log.d(TAG, "submitted a crime");
 		
 		mRestServiceHelper.submitCrime(this, crime);
+		Toast t = Toast.makeText(this, crime.getCatagory()+" theft has been submitted.", 5000);
+		t.show();
+		mViewPager.setCurrentItem(0);
+		
 	}
 }
 

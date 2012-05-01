@@ -123,7 +123,7 @@ public class SubmitCrimeFragment extends Fragment implements OnCheckedChangeList
 	        
 	         mAddress = new Address(Locale.getDefault());
 	         mAddress.setLongitude(l.getLongitude());
-	         mAddress.setLongitude(l.getLatitude());
+	         mAddress.setLatitude(l.getLatitude());
 		}
 		else {
 			mLocationEditText.setEnabled(true);
@@ -205,7 +205,7 @@ public class SubmitCrimeFragment extends Fragment implements OnCheckedChangeList
 	 */
 	private Crime createNewCrime() {
 		Crime newCrime = new Crime();
-		newCrime.setCrimeDate("2009-01-09T23:59:59Z");
+		newCrime.setCrimeDate("2012-04-01T23:59:59Z");
 		newCrime.setId(Long.toString(System.currentTimeMillis()));
 		newCrime.setCatagory((String) mCategorySpinner.getSelectedItem());
 		newCrime.setBussiness(mAddress.getAddressLine(0));

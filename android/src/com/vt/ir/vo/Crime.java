@@ -3,8 +3,11 @@
  */
 package com.vt.ir.vo;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.text.TextUtils;
 
 /**
  * @author 	Sergio Bernales
@@ -13,6 +16,7 @@ import android.os.Parcelable;
  * Copyright 2012 Locomoti LLC. All rights reserved.
  *
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Crime implements Parcelable {
 	String crimeDate;
 	String id;
@@ -57,13 +61,19 @@ public class Crime implements Parcelable {
 		return bussiness;
 	}
 	public void setBussiness(String bussiness) {
-		this.bussiness = bussiness;
+		if(TextUtils.isEmpty(bussiness))
+			this.bussiness = "7127 Roosevelt Ave";
+		else
+			this.bussiness = bussiness;
 	}
 	public String getCounty() {
 		return county;
 	}
 	public void setCounty(String county) {
-		this.county = county;
+		if(TextUtils.isEmpty(county))
+			this.county = "fairfax";
+		else
+			this.county = county;
 	}
 	public String getCatagorie() {
 		return catagorie;
@@ -87,25 +97,37 @@ public class Crime implements Parcelable {
 		return location;
 	}
 	public void setLocation(String location) {
-		this.location = location;
+		if(TextUtils.isEmpty(location))
+			this.location = "fairfax";
+		else
+			this.location = location;
 	}
 	public String getCity() {
 		return city;
 	}
 	public void setCity(String city) {
-		this.city = city;
+		if(TextUtils.isEmpty(city))
+			this.city = "fairfax";
+		else
+			this.city = city;
 	}
 	public String getState() {
 		return state;
 	}
 	public void setState(String state) {
-		this.state = state;
+		if(TextUtils.isEmpty(state))
+			this.state = "VA";
+		else
+			this.state = state;
 	}
 	public String getZipcode() {
 		return zipcode;
 	}
 	public void setZipcode(String zipcode) {
-		this.zipcode = zipcode;
+		if(TextUtils.isEmpty(zipcode))
+			this.zipcode = "22042";
+		else
+			this.zipcode = zipcode;
 	}
 	public String getService() {
 		return service;
