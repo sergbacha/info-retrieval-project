@@ -98,6 +98,7 @@ public class SearchFragment extends Fragment implements OnClickListener, OnCheck
 		// TODO Auto-generated method stub
 		super.onResume();
 		mProgressBar.setVisibility(View.GONE);
+		mGeocodeResults.setText("");
 	}
 	
 	/**
@@ -164,11 +165,14 @@ public class SearchFragment extends Fragment implements OnClickListener, OnCheck
 		String locationText = mLocationEditText.getText().toString();
 		
 		// if any are emtpy, ERROR
-		if(TextUtils.isEmpty(queryText) || TextUtils.isEmpty(locationText)){
+		if(TextUtils.isEmpty(locationText)){
 			Toast t = Toast.makeText(getActivity(), "Both query and location need to be filled", 5000);
 			t.show();
 			return;
 		}
+		if(TextUtils.isEmpty(queryText))
+			queryText = "*";
+		
 		mProgressBar.setVisibility(View.VISIBLE);
 //		// first geocode the addrress
 		if(!mMyLocationChecked){
@@ -229,6 +233,7 @@ public class SearchFragment extends Fragment implements OnClickListener, OnCheck
 		}
 		else {
 			mLocationEditText.setEnabled(true);
+			mLocationEditText.setText("");
 			
 		}
 			

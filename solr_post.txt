@@ -1,0 +1,2 @@
+curl 'http://localhost:8983/solr/update/json?commit=true' --data-binary @arlington.json -H 'Content-type:application/json'
+curl 'http://localhost:8983/solr/update/json?commit=true' --data-binary @fairfax2009.json -H 'Content-type:application/json'

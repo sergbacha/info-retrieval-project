@@ -162,7 +162,7 @@ public class TapControlledMap extends MapActivity implements OnMapPointsCreatedL
 		int[] centerCoords = Utils.getCoordinates(mAddress);
 		GeoPoint p = new GeoPoint(centerCoords[Utils.LON_IN_ARRAY], centerCoords[Utils.LAT_IN_ARRAY]);
 		mc.animateTo(p);
-		mc.setZoom(15);// zoome level tweak
+		mc.setZoom(14);// zoome level tweak
 			
 //		} else {
 //			

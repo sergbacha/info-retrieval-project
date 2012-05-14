@@ -8,9 +8,10 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Submit Crime:"
+        android:text="Report Crime"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp" />
 
    <TextView
         android:id="@+id/textView1"
@@ -37,7 +38,7 @@
         android:id="@+id/location_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="My Location" />
+        android:hint="i.e 22180 or Fairfax, VA" />
 
     <TextView
         android:id="@+id/textView1"

@@ -127,6 +127,7 @@ public class SubmitCrimeFragment extends Fragment implements OnCheckedChangeList
 		}
 		else {
 			mLocationEditText.setEnabled(true);
+			mLocationEditText.setText("");
 		}
 	}
 
@@ -141,6 +142,7 @@ public class SubmitCrimeFragment extends Fragment implements OnCheckedChangeList
 		}
 		else{
 			Crime newCrime = createNewCrime();
+			mDescription.setText("");
 			((OnCrimeSubmitListener) getActivity()).onCrimeSubmit(newCrime);
 		}
 		
@@ -212,7 +214,7 @@ public class SubmitCrimeFragment extends Fragment implements OnCheckedChangeList
 		newCrime.setCounty(mAddress.getLocality());
 		newCrime.setCatagorie("ALL OTHER OFFENSES");
 		newCrime.setCrimegroup("B");
-		newCrime.setDescription(mDescription.getText().toString());
+		newCrime.setDescription(new String(mDescription.getText().toString()));
 		newCrime.setLocation(mAddress.getAddressLine(0));
 		newCrime.setCity(mAddress.getSubLocality());
 		newCrime.setState(mAddress.getLocality());

@@ -161,7 +161,7 @@ public class RestService extends IntentService {
 	private void localSearch(Address address, String query) {
 		// build the query url
 		String url = URLUtil.buildSolrBoundingBoxURL(query, address.getLatitude(), 
-							address.getLongitude(), 20);
+							address.getLongitude(), 6);
 		
 		// create an invoker that will do the server magic
 		RestMethodInvoker invoker = new RestMethodInvoker(this, url);

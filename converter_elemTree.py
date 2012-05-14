@@ -4,6 +4,7 @@ import hashlib
 
 # load command line argument (xml file name)
 xmlfile = sys.argv[1]
+dateType = sys.argv[2] # can be vienna
 
 # load the object that will hash things
 
@@ -25,6 +26,35 @@ long = 0.0;
 lastField = 'LonY'
 
 commaChar = ','
+
+#month dictionary
+monthDict = {
+	'January':'01',
+	'February':'02',
+	'March':'03',
+	'April':'04',
+	'May':'05',
+	'June':'06',
+	'July':'07',
+	'August':'08',
+	'September':'09',
+	'October':'10',
+	'November':'11',
+	'December':'12'
+	}
+
+#retrieve a date from text
+def getSolrDateFormatted(text):
+	if(dateType == 'vienna'):
+		date = crimeElement.text.replace('.txt','').split('-')
+		solrDateFormat = date[2]+'-'+date[0]+'-'+date[1]+"T23:59:59Z"
+		return solrDateFormat
+	elif(dateType == 'arl'):
+		date = crimeElement.text.replace('.html','').split(' ')
+		solrDateFormat = date[2]+'-'+monthDict[date[0]]+'-'+date[1]+"T23:59:59Z"
+		return solrDateFormat
+
+
 
 # loop through each crime data node
 for crimeNode in crimeTree.findall('class'):
@@ -68,13 +98,15 @@ for crimeNode in crimeTree.findall('class'):
 			if crimeElement.attrib['name'] == 'CrimeNumber':
 				sys.stdout.write(jsonField % ('id', hashlib.md5(crimeElement.text).hexdigest(), commaChar))
 			# ignore SRID
-			elif crimeElement.attrib['name'] == 'SRID':
+			elif crimeElement.attrib['name'] == 'SRID' or crimeElement.attrib['name'] == 'StartDate':
 				continue
 			# create a date from the File field
 			elif crimeElement.attrib['name'] == 'File':
-				date = crimeElement.text.replace('.txt','').split('-')
-				solrDateFormat = date[2]+'-'+date[0]+'-'+date[1]+"T23:59:59Z"
-				sys.stdout.write(jsonField % ('crimeDate', solrDateFormat, commaChar))
+				formattedDate = getSolrDateFormatted(crimeElement.text)
+				# date = crimeElement.text.replace('.txt','').split('-')
+				# print crimeElement.text
+				# solrDateFormat = date[2]+'-'+date[0]+'-'+date[1]+"T23:59:59Z"
+				sys.stdout.write(jsonField % ('crimeDate', formattedDate, commaChar))
 			# Lattitude, store it
 			elif crimeElement.attrib['name'] == 'LatX':
 				lat = crimeElement.text

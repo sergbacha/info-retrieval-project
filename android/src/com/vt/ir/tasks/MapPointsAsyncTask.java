@@ -107,7 +107,7 @@ public class MapPointsAsyncTask extends AsyncTask<SimpleItemizedOverlay, Integer
 			int[] coords = Utils.splitCoordinates(c.getCoordinates_latlong());
 			GeoPoint point = new GeoPoint(coords[Utils.LAT_IN_ARRAY], coords[Utils.LON_IN_ARRAY]);
 			OverlayItem overlayItem = new OverlayItem(point, 
-							Utils.capsQueryTerms(queryTermArray, c.getCatagory()), 
+							Utils.capsQueryTerms(queryTermArray, c.getCatagory())+" : "+c.getCrimeDate().substring(0, 10), 
 							Utils.capsQueryTerms(queryTermArray, c.getDescription()));
 
 			
